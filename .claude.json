@@ -1,0 +1,494 @@
+{
+  "numStartups": 53,
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "tipsHistory": {
+    "new-user-warmup": 1,
+    "memory-command": 5,
+    "theme-command": 6,
+    "enter-to-steer-in-relatime": 7,
+    "todo-list": 8,
+    "# for memory": 9,
+    "install-github-app": 10,
+    "drag-and-drop-images": 11,
+    "permissions": 12,
+    "double-esc": 13,
+    "continue": 14,
+    "custom-commands": 15,
+    "shift-tab": 16
+  },
+  "promptQueueUseCount": 45,
+  "firstStartTime": "2025-07-12T18:00:35.578Z",
+  "userID": "fadf3520515e19fc674549a37c02e675cfc4c3a21ddd0660b984c4bf53d691e7",
+  "projects": {
+    "/home/yoga": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": " ultra think 以下是google analytics的跟踪代码，请将该代码复制并粘贴到之前讨论的wordsearch.sbs相关网站上每个网页的代码中，紧跟在 <head>\n    │\n  │   元素之后。每个网页只能添加一个 Google 代码：<!-- Google tag (gtag.js) -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-1QBDMTPFQ2\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-1QBDMTPFQ2');\n  </script>",
+          "pastedContents": {}
+        },
+        {
+          "display": "需要",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultra think 以下是google analytics的跟踪代码，请将该代码复制并粘贴到您网站上每个网页的代码中，紧跟在 <head>\n     元素之后。每个网页只能添加一个 Google 代码：<!-- Google tag (gtag.js) -->\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-1QBDMTPFQ2\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n\n      gtag('config', 'G-1QBDMTPFQ2');\n    </script>",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "export ANTHROPIC_AUTH_TOKEN=sk-XX4NetYtgf0wrDA72UyfrFpScD10UPCEBHkTMIqnUidFbDzO\nexport ANTHROPIC_BASE_URL=https://anyrouter.top\nclaude --dangerously-skip-permissions",
+          "pastedContents": {}
+        },
+        {
+          "display": " ultra think 以下是google analytics的跟踪代码，请将该代码复制并粘贴到您网站上每个网页的代码中，紧跟在 <head>\n    │\n  │   元素之后。每个网页只能添加一个 Google 代码：<!-- Google tag (gtag.js) -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-1QBDMTPFQ2\"></script>\n  <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-1QBDMTPFQ2');\n  </script>",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultra think 以下是google analytics的跟踪代码，请将该代码复制并粘贴到您网站上每个网页的代码中，紧跟在 <head>                     │\n│   元素之后。每个网页只能添加一个 Google 代码：<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-1QBDMTPFQ2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-1QBDMTPFQ2');\n</script>",
+          "pastedContents": {}
+        },
+        {
+          "display": "：lastmod更新为什么是2025-01-28，不是今天呢？ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "继续",
+          "pastedContents": {}
+        },
+        {
+          "display": "1.年份全部改为2025。2.只扫从五个方面优化SEO.3.列出需要上传github的文档ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "增加一部分社交功能ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink直接用这部分iframe代码试一试：[Pasted text #1 +28 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "<iframe src=\"https://games.crazygames.com/en_US/la-times-crossword/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/crossword/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/wordmeister/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/word-search/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/waffle-words/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/word-scramble/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/cryptoword/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/what-is-it/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/word-fishing/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/word-wipe/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/words-of-wonders/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/letterclash/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/word-search-lyg/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/kitty-scramble/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>\n\n<iframe src=\"https://games.crazygames.com/en_US/quizzland-lite/index.html\" width=\"100%\" height=\"600\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen; focus-without-user-activation *;\" allowfullscreen> </iframe>"
+            }
+          }
+        },
+        {
+          "display": "www.crazygames.com 拒绝了我们的连接请求。",
+          "pastedContents": {}
+        },
+        {
+          "display": "继续ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "请用中文和我交流ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "你是一位精通谷歌 SEO 和 HTML&TAIlwind 语法的十年全栈工程师我要做的网站域名是wordsearch.sbs ，游戏名字即关键词是wordsearch和wordgames，在线游戏的 iframe 地址是https://www.crazygames.com/t/word请帮我输出一个完整版的 HTML 和 CSS 代码，游戏标题，一句话介绍，在线游戏的 IFRAME 内容，游戏基本情况叙述要求这个网站在 PC 和移动端适配性良好，配色采用苹果典型色系，包含一个一级 H1 标签和多个 H2 标签，网站语言是地道英文。ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "你是一位精通谷歌 SEO 和 HTML&TAIlwind 语法的十年全栈工程师我要做的网站域名是wordsearch.sbs ，游戏名字即关键词是wordsearch和wordgames，在线游戏的 iframe 地址是https://www.crazygames.com/t/word请帮我输出一个完整版的 HTML 和 CSS 代码，游戏标题，一句话介绍，在线游戏的 IFRAME 内容，游戏基本情况叙述要求这个网站在 PC 和移动端适配性良好，配色采用苹果典型色系，包含一个一级 H1 标签和多个 H2 标签，网站语言是地道英文。",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "文档地址也发一下",
+          "pastedContents": {}
+        },
+        {
+          "display": "/user:explain",
+          "pastedContents": {}
+        },
+        {
+          "display": "建好了",
+          "pastedContents": {}
+        },
+        {
+          "display": "建好了吗",
+          "pastedContents": {}
+        },
+        {
+          "display": "帮我建一个文档，我要专门放game相关代码",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink你再试下这个而API接口，看看有什么问题：基金净值\nAPI接口名称: p_fund2611\nURL接口名称: http://webapi.cninfo.com.cn/api/fund/p_fund2611\n请求方式方法: get,post\n最大记录数: 20000\n输入参数 :\n英文名称    中文名称    类型    是否必填    说明\nscode    基金代码    string    否    基金代码，输入1个基金，为空时取当前日期数据\nsdate    开始查询时间    string    否    开始查询时间 ,可为空\nedate    结束查询时间    string    否    结束查询时间，可为空 ，代码和结束日期都为空时，默认为当前日期\nformat    结果集格式    string    否    设置结果返回的格式，可选的有xml、json、csv、dbf\n@column    结果列选择    string    否    选择结果集中所需要的字段，多列用逗号分隔，如@column=a,b\n@limit    结果条数限制    int    否    设置结果返回的条数\n@orderby    结果集排序    string    否    设置结果集的格式，如 @orderby=id:desc @orderby=id:asc\n输出参数 :\n英文名称    中文名称    类型    单位    说明\nSECCODE    基金代码    varchar        \nSECNAME    基金简称    varchar        \nENDDATE    截止日期    date        \nF001N    基金资产净值    decimal        \nF002N    单位净值    decimal        \nF006N    累计净值    decimal        \n",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink为什么我在官网搜网页中的东方智能制造量化基金没有？目前的数据是真实的数据吗？？？",
+          "pastedContents": {}
+        },
+        {
+          "display": "你确定更新了index.html吗ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "看下这个提示ultrathink：[Pasted text #1 +64 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "check_circle\nChinese Mutual Fund Database\n1 个非严重问题\n\n未填写字段“license”（非严重）\ntype\nDataset\nid\nhttps://chinafund.info/#dataset\nname\nChinese Mutual Fund Database\ndescription\nComprehensive database of 2,600+ Chinese mutual funds with real-time performance data\ncreator\ntype\nOrganization\nid\nhttps://chinafund.info/#organization\nname\nChinaFund.info\nurl\nhttps://chinafund.info/\nlogo\ntype\nImageObject\nurl\nhttps://chinafund.info/images/logo.png\nwidth\n600\nheight\n60\ncontactPoint\ntype\nContactPoint\ncontactType\ncustomer service\navailableLanguage\nEnglish\navailableLanguage\nChinese\nurl\nhttps://chinafund.info/contact\nsameAs\nhttps://twitter.com/ChinaFund\nsameAs\nhttps://linkedin.com/company/chinafund\ndateModified\n2025-01-25\ntemporalCoverage\n2020/2025\nspatialCoverage\ntype\nPlace\nname\nChina\nkeywords\nChinese mutual funds\nkeywords\nfund performance\nkeywords\ninvestment data\nkeywords\nNAV\nkeywords\nfund analysis"
+            }
+          }
+        },
+        {
+          "display": "在谷歌提交的时候 我应该怎么填",
+          "pastedContents": {}
+        },
+        {
+          "display": "1",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "帮我提供下站点地图ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink这是我上传github的文件，帮我看看还需要增加吗：api.js\nAdd files via upload\nnow\nchinafund-master.js\nAdd files via upload\nnow\nchinafund-sitemap.xml\nAdd files via upload\nnow\nconfig.js\nAdd files via upload\nnow\nfunds-new.html\nAdd files via upload\nnow\nfunds-zh.html\nAdd files via upload\nnow\nfunds.html\nAdd files via upload\nnow\nindex-zh.html\nAdd files via upload\nnow\nindex.html\nAdd files via upload\n4 minutes ago\nlanguage.js\nAdd files via upload\nnow\nlearning-zh.html\nAdd files via upload\nnow\nlearning.html\nAdd files via upload\nnow\nnews-zh.html\nAdd files via upload\nnow\nnews.html\nAdd files via upload\nnow\nrobots.txt\nAdd files via upload\nnow\nsitemap-zh.xml\nAdd files via upload\nnow\nsitemap.html\nAdd files via upload\nnow\nsitemap.xml\nAdd files via upload\nnow",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "这是我上传github的文件，帮我看看还需要增加吗：api.js\nAdd files via upload\nnow\nchinafund-master.js\nAdd files via upload\nnow\nchinafund-sitemap.xml\nAdd files via upload\nnow\nconfig.js\nAdd files via upload\nnow\nfunds-new.html\nAdd files via upload\nnow\nfunds-zh.html\nAdd files via upload\nnow\nfunds.html\nAdd files via upload\nnow\nindex-zh.html\nAdd files via upload\nnow\nindex.html\nAdd files via upload\n4 minutes ago\nlanguage.js\nAdd files via upload\nnow\nlearning-zh.html\nAdd files via upload\nnow\nlearning.html\nAdd files via upload\nnow\nnews-zh.html\nAdd files via upload\nnow\nnews.html\nAdd files via upload\nnow\nrobots.txt\nAdd files via upload\nnow\nsitemap-zh.xml\nAdd files via upload\nnow\nsitemap.html\nAdd files via upload\nnow\nsitemap.xml\nAdd files via upload\nnow",
+          "pastedContents": {}
+        },
+        {
+          "display": "\n  labubu-world.css不是其他网站的文件吗ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "请帮我罗列chinafund.info网站需要部署到github的文件，ultrathink！",
+          "pastedContents": {}
+        },
+        {
+          "display": "请帮我罗列需要上传github的文件。",
+          "pastedContents": {}
+        },
+        {
+          "display": "请帮我罗列需要上传github的文件",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink！你再确认下之前放的谷歌跟踪代码是否还在正确的位置：<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-5FF8MKCDBS\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-5FF8MKCDBS');\n</script>",
+          "pastedContents": {}
+        },
+        {
+          "display": "非常好。你作为专业的seo专家，在优化三项seo。ultrathink！",
+          "pastedContents": {}
+        },
+        {
+          "display": " 2,634 funds | Mock Data为什么是demo？ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "🟡 Demo Data\n2,634 funds | Mock Data为什么是demo？ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "英文页面还是显示:金鹰生物医药理财基金等中文字样呢，请翻译为英文！ultrathink！",
+          "pastedContents": {}
+        },
+        {
+          "display": "页面上不要显示：🟡 演示数据\n数据源: 模拟数据 | 缓存: 0条",
+          "pastedContents": {}
+        },
+        {
+          "display": "你是多年的SEO专家，在帮我优化三个方面的SEO.ultrathink！",
+          "pastedContents": {}
+        },
+        {
+          "display": "你作为拥有丰富经验的SEO专家，再从5个方面优化下SEO.ULTRATHINK!",
+          "pastedContents": {}
+        },
+        {
+          "display": "页面上不要提到巨潮资讯网",
+          "pastedContents": {}
+        },
+        {
+          "display": "继续ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "非常好。还有几点需要优化：1中国基金.网改为中国基金网。2英文页面注意全部翻译为英文。3数据源指示器: 显示使用真实数据。ultrathink！",
+          "pastedContents": {}
+        },
+        {
+          "display": "非常好。还有几点需要优化：1中国基金.网改为中国基金网。2英文页面注意全部翻译为英文。3数据源指示器: 显示使用真实数据",
+          "pastedContents": {}
+        },
+        {
+          "display": "funds-zh.html还是显示不出来，funds.html能够正常显示。ultrathink！",
+          "pastedContents": {}
+        },
+        {
+          "display": "都是0.00%，对用户体验非常不利，有没有办法处理下ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "为什么Daily Change\nundefined%是不能显示具体数据ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "继续ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "一直显示加载基金数据中...ultrathink！",
+          "pastedContents": {}
+        },
+        {
+          "display": "继续",
+          "pastedContents": {}
+        },
+        {
+          "display": "已经通过API获取了基金的实时数据吗？为什么我看到页面上还是只有48个基金呢？ultrathink！",
+          "pastedContents": {}
+        },
+        {
+          "display": "非常好！执行吧！ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "你的数据不是从api上读取的实时数据吗？ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "你的数据不是从API",
+          "pastedContents": {}
+        },
+        {
+          "display": "48个基金太少了，你再增加完整。ultrathink！",
+          "pastedContents": {}
+        },
+        {
+          "display": "请把文件地址也罗列上",
+          "pastedContents": {}
+        },
+        {
+          "display": "现在请罗列需要上传github的文档",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink 又可以合并的文件吗？",
+          "pastedContents": {}
+        },
+        {
+          "display": "可以精简一部分吗ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "请罗列需要上传github的文档。",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink 继续",
+          "pastedContents": {}
+        },
+        {
+          "display": "你再整体检查下，至少从三个角度优化下SEO!ultrathink!",
+          "pastedContents": {}
+        },
+        {
+          "display": " Last updated为什么不是最新日期？ultrathink",
+          "pastedContents": {}
+        },
+        {
+          "display": "非常棒！你作为google的SEO专家，再从五个方面帮我优化SEO!做好了我请你吃大餐！ultrathink！",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink！我补充下，以下是谷歌官方的要求：以下是此账号的 Google 代码。请将该代码复制并粘贴到您网站上每个网页的代码中，紧跟在 <head> 元素之后。每个网页只能添加一个 Google 代码。<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-5FF8MKCDBS\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-5FF8MKCDBS');\n</script>",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink请将以下google analytics代码放进代买中以便跟踪：<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-5FF8MKCDBS\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-5FF8MKCDBS');\n</script>",
+          "pastedContents": {}
+        },
+        {
+          "display": "页面上没有地方可以选择语言呢，你把语言选项放在右上角吧！ultrathink!",
+          "pastedContents": {}
+        },
+        {
+          "display": "继续",
+          "pastedContents": {}
+        },
+        {
+          "display": "我想让中国的用户也能使用，所以请添加中文版。ultrathink!!!",
+          "pastedContents": {}
+        },
+        {
+          "display": "我想让中国的用户也能使用，所以请添加中文版。",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink!Fund Database页面为什么只能打开第1页，后面页数就没有数据吗？",
+          "pastedContents": {}
+        },
+        {
+          "display": "继续",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink请继续！",
+          "pastedContents": {}
+        },
+        {
+          "display": "16只基金有点少，你能再更新一些吗。另外可以设置成定时自动通过API更新数据吗？",
+          "pastedContents": {}
+        },
+        {
+          "display": "ultrathink home页的这部分数据请补充上：Loading Fund Data...\nLoading...\nNet Asset Value\n--\nDaily Change\n--\n1-Year Return\n--",
+          "pastedContents": {}
+        },
+        {
+          "display": "请罗列需要上传到github上的文档。",
+          "pastedContents": {}
+        },
+        {
+          "display": "我的网站域名是chinafund.info,计划做一个面向全球的chinafund网站，所以网站用地道的英语。你是拥有丰富经验的产品经理和SEO专家，请帮我做好网站开发和SEO,我会提供给你PRD文档和API信息：[Pasted text #1 +256 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "我要做一个关于china fund的网站，你是一名资深UI设计师和项目经理，请根据以下PRD文档设计网站原型图：-----\n\n太好了！很高兴这些API信息对您有帮助。我已经将关于 `p_fund2600` 和 `p_fund2634` 的使用方案整合到MVP版本的PRD文档中，特别是更新了数据源和数据获取策略。\n\n-----\n\n## 产品需求文档 (PRD) - MVP版本 (更新版)\n\n**项目名称：** 中国基金投资信息平台 - MVP\n\n**版本：** V1.1 - MVP with Confirmed Data APIs\n\n**日期：** 2025年7月24日\n\n**产品经理：** [您的姓名]\n\n### 1\\. 引言\n\n本MVP版本旨在快速推出一个能满足用户核心**信息查询**和**初步商业调查**需求的产品。我们聚焦于提供最关键的中国基金数据和基础知识，利用巨潮资讯网（https://www.google.com/search?q=cninfo.com.cn  ）的公开API作为主要数据源，以验证市场需求并为后续迭代奠定基础。\n\n### 2\\. 目标与愿景 (MVP)\n\n  * **目标：** 在Google搜索“china fund”及少数核心长尾关键词时，进入首页。提供基础的中国基金概览和数据，吸引目标用户并收集反馈。\n  * **愿景：** 成为用户获取中国基金基本信息和数据的首个可靠来源。\n\n### 3\\. 用户故事 (MVP)\n\n  * 作为一个**新手投资者**，我希望在网站上找到**易懂的中国基金入门知识**，以便我能理解基本概念。\n  * 作为一个**研究者**，我希望能够**查看不同中国基金的基础数据（如净值、历史业绩）**，以便我能初步了解它们。\n  * 作为一个**关注市场的人**，我希望获取**最新的中国基金市场快讯**，以便我能及时了解市场动态。\n\n### 4\\. 功能需求 (Functional Requirements) - MVP核心\n\n我们将优先开发以下功能模块：\n\n-----\n\n#### 4.1 核心基金列表与详情 (满足初步商业调查意图)\n\n这是MVP的**核心功能**，用户能看到并点击查看中国基金的基本信息。\n\n  * **FR\\_F201\\_MVP：** **中国基金基础列表**\n      * 展示精选的、具有代表性的**中国基金列表**（例如，按A股、H股、QDII简单分类）。\n      * 每个列表项显示：**基金名称、基金代码、当前净值、今日涨跌幅、近一年收益率。**\n      * 列表支持按**基金类型**（如股票型、混合型）和**近一年收益率**进行简单的筛选和排序。\n  * **FR\\_F202\\_MVP：** **基金基础详情页**\n      * 点击列表项进入基金详情页。\n      * 页面内容包括：\n          * **基本信息：** 基金名称、代码、类型、成立日期、基金公司。\n          * **核心业绩：** **净值走势图（仅显示近一年数据）**，表格展示**近一年、三年、五年的年化收益率。**\n          * 费用概览：仅列出管理费率和托管费率。\n          * 风险等级：简单的风险等级标识（如低、中、高）。\n      * **重要：基金数据需保证每日更新。**\n\n-----\n\n#### 4.2 学习中心 - 基础知识 (满足信息查询意图)\n\n提供最基础、最重要的入门科普内容。\n\n  * **FR\\_L101\\_MVP：** **“什么是中国基金”入门文章**\n      * 至少包含一篇全面介绍中国基金基础概念的文章。\n      * 内容覆盖：中国基金的定义、主要分类（A股、H股、QDII概念）、投资特点。\n  * **FR\\_L102\\_MVP：** **“投资中国基金的风险”核心文章**\n      * 至少包含一篇关于投资中国基金主要风险（如政策风险、市场波动风险、汇率风险等）的文章。\n\n-----\n\n#### 4.3 市场快讯 (满足信息查询意图)\n\n提供及时更新的市场简报，吸引用户重复访问。\n\n  * **FR\\_M301\\_MVP：** **简要市场快讯发布**\n      * 一个版块用于发布简短的每日或每周中国基金市场快讯。\n      * 内容聚焦于当日/当周重要宏观经济数据、政策新闻或市场表现总结。\n\n-----\n\n#### 4.4 网站基础功能 (满足基本用户体验)\n\n  * **FR\\_B601\\_MVP：** **清晰的导航栏**\n      * 包括：首页、基金列表、学习中心、市场快讯、关于我们。\n  * **FR\\_B602\\_MVP：** **响应式设计**\n      * 网站在PC端和移动端均能良好显示和操作。\n  * **FR\\_B603\\_MVP：** **基础搜索框**\n      * 仅支持按基金名称或代码在基金列表中进行搜索。\n  * **FR\\_B604\\_MVP：** **隐私政策与服务条款页面**\n      * 提供必要的法律声明页面。\n\n### 5\\. 非功能性需求 (Non-Functional Requirements) - MVP\n\n  * **性能：**\n      * 页面加载时间：主要页面在**3秒内**加载完成。\n      * 并发用户数：初期支持至少**500并发用户**。\n  * **安全性：**\n      * **HTTPS加密**：所有页面均使用HTTPS。\n  * **可靠性：**\n      * 系统可用性达到**99%**。\n  * **用户体验 (UX)：**\n      * 界面设计简洁、干净，易于阅读。\n      * 基金数据展示清晰直观。\n  * **SEO友好性：**\n      * **URL结构清晰**，包含关键词。\n      * **页面Title和Meta Description优化**（针对核心关键词）。\n      * **H1-H6标签**的正确使用。\n      * 自动生成**XML Sitemap和Robots.txt**。\n      * 图片**Alt文本**。\n  * **数据来源：**\n      * **核心数据源：** **巨潮资讯网（https://www.google.com/search?q=cninfo.com.cn  ）公开API**。\n      * 确保基金数据来源**权威和每日更新**。这是MVP成功的关键。\n\n-----\n\n### 6\\. 技术选型 (初步建议)\n\n  * **前端：** 专注于使用一种轻量级框架 (如Vue.js 或 React) 或甚至纯HTML/CSS/JS来快速实现。\n  * **后端：** Python (Flask) 或 Node.js (Express) 用于API和数据处理。\n  * **数据库：** PostgreSQL 或 MySQL。\n  * **数据采集与更新：**\n      * **基金基本信息：** 定期（如每周或每月）调用巨潮资讯网的 **`p_fund2600` API** 获取基金的名称、代码、类别、管理人、费率等信息，并存储到本地数据库。\n      * **基金业绩数据：** 每日收盘后，定时调用巨潮资讯网的 **`p_fund2634` API**，传入当前日期，获取所有基金的最新净值、涨跌及涨跌幅，更新到本地数据库。同时，该API也可用于按需获取历史净值数据以构建走势图和计算历史收益率。\n  * **部署：** 容器化部署 (Docker) 和云服务 (如Vercel/Netlify用于前端，或AWS EC2/Lambda用于后端) 以实现快速迭代和扩展。\n\n### 7\\. 衡量指标 (KPIs) - MVP\n\n  * **SEO指标：**\n      * “china fund”在Google的排名位置。\n      * 来自“china fund”及相关核心长尾词的**自然搜索流量**。\n      * 网站**索引页面数量**。\n  * **用户行为指标：**\n      * 网站**总访问量**和**独立访客数**。\n      * **平均会话时长**。\n      * **跳出率**。\n      * 基金详情页的**点击率**和**浏览量**。\n      * “学习中心”文章的**阅读完成率**。\n\n### 8\\. 里程碑 (MVP)\n\n  * **第1周：** 完成巨潮资讯网API接口（`p_fund2600` 和 `p_fund2634`）的集成和数据模型设计；搭建数据库并完成数据初始化（包括历史数据拉取）。\n  * **第2周：** 基金列表与基础详情页前端开发完成，并与后端数据集成。\n  * **第3周：** 学习中心两篇文章上线，市场快讯功能上线；基础网站导航和响应式设计完成。\n  * **第4周：** 部署上线，进行初步SEO优化和性能测试，并开始收集用户反馈。\n\n-----\n\n### 9\\. 风险与考量\n\n  * **巨潮资讯网API的稳定性与频率限制：** 需监控API调用情况，应对可能的限流或服务中断。\n  * **数据合规性：** 再次确认巨潮资讯网API的使用条款，确保商业使用没有法律风险，并明确数据来源。\n  * **数据准确性维护：** 尽管API提供数据，仍需定期抽样验证数据准确性。\n  * **竞品分析：** 持续关注现有金融信息平台的特点，为后续迭代寻找差异化优势。\n\n-----\n\n基金日行情数据\nAPI接口名称: p_fund2634\nURL接口名称: http://webapi.cninfo.com.cn/api/fund/p_fund2634\n请求方式方法: get,post\n最大记录数: 20000\n输入参数 :\n英文名称    中文名称    类型    是否必填    说明\nscode    基金代码    string    否    输入一个基金代码\ntdate    交易日期    string    否    输入交易日期查询该天的数据\nformat    结果集格式    string    否    设置结果返回的格式，可选的有xml、json、csv、dbf\n@column    结果列选择    string    否    选择结果集中所需要的字段，多列用逗号分隔，如@column=a,b\n@limit    结果条数限制    int    否    设置结果返回的条数\n@orderby    结果集排序    string    否    设置结果集的格式，如 @orderby=id:desc @orderby=id:asc\n输出参数 :\n英文名称    中文名称    类型    单位    说明\nSECCODE    证券代码    varchar(30)        \nSECNAME    证券简称    varchar(40)        \nTRADEDATE    交易日期    date        \nF001V    交易所    varchar(30)        \nF002N    昨日收盘价    numeric(10,4)    元    \nF003N    今日开盘价    numeric(10,4)    元    \nF004N    成交数量    numeric(14,0)    股    \nF005N    最高成交价    numeric(10,4)    元    \nF006N    最低成交价    numeric(10,4)    元    \nF007N    最近成交价    numeric(10,4)    元    \nF008N    总笔数    numeric(10,0)    笔    \nF009N    涨跌    numeric(10,4)    元    \nF010N    涨跌幅    numeric(8,4)    %    \nF011N    成交金额    numeric(18,2)    元    \nF012N    换手率    numeric(10,3)        \nF013N    振幅    numeric(12,2)    %    \nF019N    公司总股本    numeric(12,0)    股    \nF020N    发行总股本    numeric(16,0)    股    \nF021N    流通股本    numeric(16,0)    股    \nF024N    叫买揭示    numeric(10,4)        \nF025N    叫卖揭示    numeric(10,4)        \nF026N    市盈率1    numeric(8,2)        \nF027N    最新净值    numeric(8,4)        \nF028N    折价率    numeric(8,2)        \nMARKETCODE    交易市场编码    varchar(12)        \nCHANGE_CODE    更新状态    int(1)        1:新增 2:删除 3:修改\n货币基金收益日报\nAPI接口名称: p_fund2616\nURL接口名称: http://webapi.cninfo.com.cn/api/fund/p_fund2616\n请求方式方法: get,post\n最大记录数: 20000\n输入参数 :\n英文名称    中文名称    类型    是否必填    说明\nscode    基金代码    string    否    基金代码，输入1个基金，为空时取当前日期数据\nsdate    开始查询时间    string    否    开始查询时间 ,可为空\nedate    结束查询时间    string    否    结束查询时间，可为空 代码和结束日期都为空时，默认为当前日期\nformat    结果集格式    string    否    设置结果返回的格式，可选的有xml、json、csv、dbf\n@column    结果列选择    string    否    选择结果集中所需要的字段，多列用逗号分隔，如@column=a,b\n@limit    结果条数限制    int    否    设置结果返回的条数\n@orderby    结果集排序    string    否    设置结果集的格式，如 @orderby=id:desc @orderby=id:asc\n输出参数 :\n英文名称    中文名称    类型    单位    说明\nSECCODE    基金代码    varchar        \nSECNAME    基金简称    varchar        \nENDDATE    截止日期    date        \nF001N    每万份基金单位收益    decimal        单位：元\nF002N    最近七日收益折算的年收益率    decimal        单位:%\n基金日行情数据\nAPI接口名称: p_fund2634\nURL接口名称: http://webapi.cninfo.com.cn/api/fund/p_fund2634\n请求方式方法: get,post\n最大记录数: 20000\n输入参数 :\n英文名称    中文名称    类型    是否必填    说明\nscode    基金代码    string    否    输入一个基金代码\ntdate    交易日期    string    否    输入交易日期查询该天的数据\nformat    结果集格式    string    否    设置结果返回的格式，可选的有xml、json、csv、dbf\n@column    结果列选择    string    否    选择结果集中所需要的字段，多列用逗号分隔，如@column=a,b\n@limit    结果条数限制    int    否    设置结果返回的条数\n@orderby    结果集排序    string    否    设置结果集的格式，如 @orderby=id:desc @orderby=id:asc\n输出参数 :\n英文名称    中文名称    类型    单位    说明\nSECCODE    证券代码    varchar(30)        \nSECNAME    证券简称    varchar(40)        \nTRADEDATE    交易日期    date        \nF001V    交易所    varchar(30)        \nF002N    昨日收盘价    numeric(10,4)    元    \nF003N    今日开盘价    numeric(10,4)    元    \nF004N    成交数量    numeric(14,0)    股    \nF005N    最高成交价    numeric(10,4)    元    \nF006N    最低成交价    numeric(10,4)    元    \nF007N    最近成交价    numeric(10,4)    元    \nF008N    总笔数    numeric(10,0)    笔    \nF009N    涨跌    numeric(10,4)    元    \nF010N    涨跌幅    numeric(8,4)    %    \nF011N    成交金额    numeric(18,2)    元    \nF012N    换手率    numeric(10,3)        \nF013N    振幅    numeric(12,2)    %    \nF019N    公司总股本    numeric(12,0)    股    \nF020N    发行总股本    numeric(16,0)    股    \nF021N    流通股本    numeric(16,0)    股    \nF024N    叫买揭示    numeric(10,4)        \nF025N    叫卖揭示    numeric(10,4)        \nF026N    市盈率1    numeric(8,2)        \nF027N    最新净值    numeric(8,4)        \nF028N    折价率    numeric(8,2)        \nMARKETCODE    交易市场编码    varchar(12)        \nCHANGE_CODE    更新状态    int(1)        1:新增 2:删除 3:修改"
+            }
+          }
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "bunx ccusage",
+          "pastedContents": {}
+        },
+        {
+          "display": "你是谁",
+          "pastedContents": {}
+        },
+        {
+          "display": "hello",
+          "pastedContents": {}
+        },
+        {
+          "display": "你是seo专家，相关的SEO处理好了吗",
+          "pastedContents": {}
+        },
+        {
+          "display": "我应该上传哪些文件到GitHub",
+          "pastedContents": {}
+        },
+        {
+          "display": "file://wsl$/blog/中还是显示无法访问您的文件\n该文件可能已被移至别处、修改或删除。\nERR_FILE_NOT_FOUND",
+          "pastedContents": {}
+        },
+        {
+          "display": "点开是这个路径：file://wsl$/blog/",
+          "pastedContents": {}
+        },
+        {
+          "display": "还是显示无法访问您的文件\n该文件可能已被移至别处、修改或删除。\nERR_FILE_NOT_FOUNDa",
+          "pastedContents": {}
+        },
+        {
+          "display": "继续",
+          "pastedContents": {}
+        },
+        {
+          "display": "我点击blog，显示无法访问您的文件\n该文件可能已被移至别处、修改或删除。\nERR_FILE_NOT_FOUND！你再好好想想！",
+          "pastedContents": {}
+        },
+        {
+          "display": "还是没有链接上ultrathink",
+          "pastedContents": {}
+        }
+      ],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "context7": {
+          "type": "http",
+          "url": "https://mcp.context7.com/mcp"
+        },
+        "browsermcp": {
+          "type": "http",
+          "url": "https://browsermcp.io/"
+        },
+        "magic": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "@21st-dev/cli@latest",
+            "API_KEY=5d23f211f66ea4cf661a260ab1146e4cb8bd98a0787fefb21c7ff484daf3eb9f"
+          ],
+          "env": {}
+        },
+        "playwright": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "@playwright/mcp@latest"
+          ],
+          "env": {}
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 4,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastTotalWebSearchRequests": 0,
+      "hasCompletedProjectOnboarding": true
+    }
+  },
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "1.0.51",
+  "subscriptionNoticeCount": 0,
+  "hasAvailableSubscription": false,
+  "cachedChangelog": "# Changelog\n\n## 1.0.51\n\n- Added support for native Windows (requires Git for Windows)\n- Added support for Bedrock API keys through environment variable AWS_BEARER_TOKEN_BEDROCK\n- Settings: /doctor can now help you identify and fix invalid setting files\n- `--append-system-prompt` can now be used in interactive mode, not just --print/-p.\n- Increased auto-compact warning threshold from 60% to 80%\n- Fixed an issue with handling user directories with spaces for shell snapshots\n- OTEL resource now includes os.type, os.version, host.arch, and wsl.version (if running on Windows Subsystem for Linux)\n- Custom slash commands: Fixed user-level commands in subdirectories\n- Plan mode: Fixed issue where rejected plan from sub-task would get discarded\n\n## 1.0.48\n\n- Fixed a bug in v1.0.45 where the app would sometimes freeze on launch\n- Added progress messages to Bash tool based on the last 5 lines of command output\n- Added expanding variables support for MCP server configuration\n- Moved shell snapshots from /tmp to ~/.claude for more reliable Bash tool calls\n- Improved IDE extension path handling when Claude Code runs in WSL\n- Hooks: Added a PreCompact hook\n- Vim mode: Added c, f/F, t/T\n\n## 1.0.45\n\n- Redesigned Search (Grep) tool with new tool input parameters and features\n- Disabled IDE diffs for notebook files, fixing \"Timeout waiting after 1000ms\" error\n- Fixed config file corruption issue by enforcing atomic writes\n- Updated prompt input undo to Ctrl+\\_ to avoid breaking existing Ctrl+U behavior, matching zsh's undo shortcut\n- Stop Hooks: Fixed transcript path after /clear and fixed triggering when loop ends with tool call\n- Custom slash commands: Restored namespacing in command names based on subdirectories. For example, .claude/commands/frontend/component.md is now /frontend:component, not /component.\n\n## 1.0.44\n\n- New /export command lets you quickly export a conversation for sharing\n- MCP: resource_link tool results are now supported\n- MCP: tool annotations and tool titles now display in /mcp view\n- Changed Ctrl+Z to suspend Claude Code. Resume by running `fg`. Prompt input undo is now Ctrl+U.\n\n## 1.0.43\n\n- Fixed a bug where the theme selector was saving excessively\n- Hooks: Added EPIPE system error handling\n\n## 1.0.42\n\n- Added tilde (`~`) expansion support to `/add-dir` command\n\n## 1.0.41\n\n- Hooks: Split Stop hook triggering into Stop and SubagentStop\n- Hooks: Enabled optional timeout configuration for each command\n- Hooks: Added \"hook_event_name\" to hook input\n- Fixed a bug where MCP tools would display twice in tool list\n- New tool parameters JSON for Bash tool in `tool_decision` event\n\n## 1.0.40\n\n- Fixed a bug causing API connection errors with UNABLE_TO_GET_ISSUER_CERT_LOCALLY if `NODE_EXTRA_CA_CERTS` was set\n\n## 1.0.39\n\n- New Active Time metric in OpenTelemetry logging\n\n## 1.0.38\n\n- Released hooks. Special thanks to community input in https://github.com/anthropics/claude-code/issues/712. Docs: https://docs.anthropic.com/en/docs/claude-code/hooks\n\n## 1.0.37\n\n- Remove ability to set `Proxy-Authorization` header via ANTHROPIC_AUTH_TOKEN or apiKeyHelper\n\n## 1.0.36\n\n- Web search now takes today's date into context\n- Fixed a bug where stdio MCP servers were not terminating properly on exit\n\n## 1.0.35\n\n- Added support for MCP OAuth Authorization Server discovery\n\n## 1.0.34\n\n- Fixed a memory leak causing a MaxListenersExceededWarning message to appear\n\n## 1.0.33\n\n- Improved logging functionality with session ID support\n- Added prompt input undo functionality (Ctrl+Z and vim 'u' command)\n- Improvements to plan mode\n\n## 1.0.32\n\n- Updated loopback config for litellm\n- Added forceLoginMethod setting to bypass login selection screen\n\n## 1.0.31\n\n- Fixed a bug where ~/.claude.json would get reset when file contained invalid JSON\n\n## 1.0.30\n\n- Custom slash commands: Run bash output, @-mention files, enable thinking with thinking keywords\n- Improved file path autocomplete with filename matching\n- Added timestamps in Ctrl-r mode and fixed Ctrl-c handling\n- Enhanced jq regex support for complex filters with pipes and select\n\n## 1.0.29\n\n- Improved CJK character support in cursor navigation and rendering\n\n## 1.0.28\n\n- Slash commands: Fix selector display during history navigation\n- Resizes images before upload to prevent API size limit errors\n- Added XDG_CONFIG_HOME support to configuration directory\n- Performance optimizations for memory usage\n- New attributes (terminal.type, language) in OpenTelemetry logging\n\n## 1.0.27\n\n- Streamable HTTP MCP servers are now supported\n- Remote MCP servers (SSE and HTTP) now support OAuth\n- MCP resources can now be @-mentioned\n- /resume slash command to switch conversations within Claude Code\n\n## 1.0.25\n\n- Slash commands: moved \"project\" and \"user\" prefixes to descriptions\n- Slash commands: improved reliability for command discovery\n- Improved support for Ghostty\n- Improved web search reliability\n\n## 1.0.24\n\n- Improved /mcp output\n- Fixed a bug where settings arrays got overwritten instead of merged\n\n## 1.0.23\n\n- Released TypeScript SDK: import @anthropic-ai/claude-code to get started\n- Released Python SDK: pip install claude-code-sdk to get started\n\n## 1.0.22\n\n- SDK: Renamed `total_cost` to `total_cost_usd`\n\n## 1.0.21\n\n- Improved editing of files with tab-based indentation\n- Fix for tool_use without matching tool_result errors\n- Fixed a bug where stdio MCP server processes would linger after quitting Claude Code\n\n## 1.0.18\n\n- Added --add-dir CLI argument for specifying additional working directories\n- Added streaming input support without require -p flag\n- Improved startup performance and session storage performance\n- Added CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR environment variable to freeze working directory for bash commands\n- Added detailed MCP server tools display (/mcp)\n- MCP authentication and permission improvements\n- Added auto-reconnection for MCP SSE connections on disconnect\n- Fixed issue where pasted content was lost when dialogs appeared\n\n## 1.0.17\n\n- We now emit messages from sub-tasks in -p mode (look for the parent_tool_use_id property)\n- Fixed crashes when the VS Code diff tool is invoked multiple times quickly\n- MCP server list UI improvements\n- Update Claude Code process title to display \"claude\" instead of \"node\"\n\n## 1.0.11\n\n- Claude Code can now also be used with a Claude Pro subscription\n- Added /upgrade for smoother switching to Claude Max plans\n- Improved UI for authentication from API keys and Bedrock/Vertex/external auth tokens\n- Improved shell configuration error handling\n- Improved todo list handling during compaction\n\n## 1.0.10\n\n- Added markdown table support\n- Improved streaming performance\n\n## 1.0.8\n\n- Fixed Vertex AI region fallback when using CLOUD_ML_REGION\n- Increased default otel interval from 1s -> 5s\n- Fixed edge cases where MCP_TIMEOUT and MCP_TOOL_TIMEOUT weren't being respected\n- Fixed a regression where search tools unnecessarily asked for permissions\n- Added support for triggering thinking non-English languages\n- Improved compacting UI\n\n## 1.0.7\n\n- Renamed /allowed-tools -> /permissions\n- Migrated allowedTools and ignorePatterns from .claude.json -> settings.json\n- Deprecated claude config commands in favor of editing settings.json\n- Fixed a bug where --dangerously-skip-permissions sometimes didn't work in --print mode\n- Improved error handling for /install-github-app\n- Bugfixes, UI polish, and tool reliability improvements\n\n## 1.0.6\n\n- Improved edit reliability for tab-indented files\n- Respect CLAUDE_CONFIG_DIR everywhere\n- Reduced unnecessary tool permission prompts\n- Added support for symlinks in @file typeahead\n- Bugfixes, UI polish, and tool reliability improvements\n\n## 1.0.4\n\n- Fixed a bug where MCP tool errors weren't being parsed correctly\n\n## 1.0.1\n\n- Added `DISABLE_INTERLEAVED_THINKING` to give users the option to opt out of interleaved thinking.\n- Improved model references to show provider-specific names (Sonnet 3.7 for Bedrock, Sonnet 4 for Console)\n- Updated documentation links and OAuth process descriptions\n\n## 1.0.0\n\n- Claude Code is now generally available\n- Introducing Sonnet 4 and Opus 4 models\n\n## 0.2.125\n\n- Breaking change: Bedrock ARN passed to `ANTHROPIC_MODEL` or `ANTHROPIC_SMALL_FAST_MODEL` should no longer contain an escaped slash (specify `/` instead of `%2F`)\n- Removed `DEBUG=true` in favor of `ANTHROPIC_LOG=debug`, to log all requests\n\n## 0.2.117\n\n- Breaking change: --print JSON output now returns nested message objects, for forwards-compatibility as we introduce new metadata fields\n- Introduced settings.cleanupPeriodDays\n- Introduced CLAUDE_CODE_API_KEY_HELPER_TTL_MS env var\n- Introduced --debug mode\n\n## 0.2.108\n\n- You can now send messages to Claude while it works to steer Claude in real-time\n- Introduced BASH_DEFAULT_TIMEOUT_MS and BASH_MAX_TIMEOUT_MS env vars\n- Fixed a bug where thinking was not working in -p mode\n- Fixed a regression in /cost reporting\n- Deprecated MCP wizard interface in favor of other MCP commands\n- Lots of other bugfixes and improvements\n\n## 0.2.107\n\n- CLAUDE.md files can now import other files. Add @path/to/file.md to ./CLAUDE.md to load additional files on launch\n\n## 0.2.106\n\n- MCP SSE server configs can now specify custom headers\n- Fixed a bug where MCP permission prompt didn't always show correctly\n\n## 0.2.105\n\n- Claude can now search the web\n- Moved system & account status to /status\n- Added word movement keybindings for Vim\n- Improved latency for startup, todo tool, and file edits\n\n## 0.2.102\n\n- Improved thinking triggering reliability\n- Improved @mention reliability for images and folders\n- You can now paste multiple large chunks into one prompt\n\n## 0.2.100\n\n- Fixed a crash caused by a stack overflow error\n- Made db storage optional; missing db support disables --continue and --resume\n\n## 0.2.98\n\n- Fixed an issue where auto-compact was running twice\n\n## 0.2.96\n\n- Claude Code can now also be used with a Claude Max subscription (https://claude.ai/upgrade)\n\n## 0.2.93\n\n- Resume conversations from where you left off from with \"claude --continue\" and \"claude --resume\"\n- Claude now has access to a Todo list that helps it stay on track and be more organized\n\n## 0.2.82\n\n- Added support for --disallowedTools\n- Renamed tools for consistency: LSTool -> LS, View -> Read, etc.\n\n## 0.2.75\n\n- Hit Enter to queue up additional messages while Claude is working\n- Drag in or copy/paste image files directly into the prompt\n- @-mention files to directly add them to context\n- Run one-off MCP servers with `claude --mcp-config <path-to-file>`\n- Improved performance for filename auto-complete\n\n## 0.2.74\n\n- Added support for refreshing dynamically generated API keys (via apiKeyHelper), with a 5 minute TTL\n- Task tool can now perform writes and run bash commands\n\n## 0.2.72\n\n- Updated spinner to indicate tokens loaded and tool usage\n\n## 0.2.70\n\n- Network commands like curl are now available for Claude to use\n- Claude can now run multiple web queries in parallel\n- Pressing ESC once immediately interrupts Claude in Auto-accept mode\n\n## 0.2.69\n\n- Fixed UI glitches with improved Select component behavior\n- Enhanced terminal output display with better text truncation logic\n\n## 0.2.67\n\n- Shared project permission rules can be saved in .claude/settings.json\n\n## 0.2.66\n\n- Print mode (-p) now supports streaming output via --output-format=stream-json\n- Fixed issue where pasting could trigger memory or bash mode unexpectedly\n\n## 0.2.63\n\n- Fixed an issue where MCP tools were loaded twice, which caused tool call errors\n\n## 0.2.61\n\n- Navigate menus with vim-style keys (j/k) or bash/emacs shortcuts (Ctrl+n/p) for faster interaction\n- Enhanced image detection for more reliable clipboard paste functionality\n- Fixed an issue where ESC key could crash the conversation history selector\n\n## 0.2.59\n\n- Copy+paste images directly into your prompt\n- Improved progress indicators for bash and fetch tools\n- Bugfixes for non-interactive mode (-p)\n\n## 0.2.54\n\n- Quickly add to Memory by starting your message with '#'\n- Press ctrl+r to see full output for long tool results\n- Added support for MCP SSE transport\n\n## 0.2.53\n\n- New web fetch tool lets Claude view URLs that you paste in\n- Fixed a bug with JPEG detection\n\n## 0.2.50\n\n- New MCP \"project\" scope now allows you to add MCP servers to .mcp.json files and commit them to your repository\n\n## 0.2.49\n\n- Previous MCP server scopes have been renamed: previous \"project\" scope is now \"local\" and \"global\" scope is now \"user\"\n\n## 0.2.47\n\n- Press Tab to auto-complete file and folder names\n- Press Shift + Tab to toggle auto-accept for file edits\n- Automatic conversation compaction for infinite conversation length (toggle with /config)\n\n## 0.2.44\n\n- Ask Claude to make a plan with thinking mode: just say 'think' or 'think harder' or even 'ultrathink'\n\n## 0.2.41\n\n- MCP server startup timeout can now be configured via MCP_TIMEOUT environment variable\n- MCP server startup no longer blocks the app from starting up\n\n## 0.2.37\n\n- New /release-notes command lets you view release notes at any time\n- `claude config add/remove` commands now accept multiple values separated by commas or spaces\n\n## 0.2.36\n\n- Import MCP servers from Claude Desktop with `claude mcp add-from-claude-desktop`\n- Add MCP servers as JSON strings with `claude mcp add-json <n> <json>`\n\n## 0.2.34\n\n- Vim bindings for text input - enable with /vim or /config\n\n## 0.2.32\n\n- Interactive MCP setup wizard: Run \"claude mcp add\" to add MCP servers with a step-by-step interface\n- Fix for some PersistentShell issues\n\n## 0.2.31\n\n- Custom slash commands: Markdown files in .claude/commands/ directories now appear as custom slash commands to insert prompts into your conversation\n- MCP debug mode: Run with --mcp-debug flag to get more information about MCP server errors\n\n## 0.2.30\n\n- Added ANSI color theme for better terminal compatibility\n- Fixed issue where slash command arguments weren't being sent properly\n- (Mac-only) API keys are now stored in macOS Keychain\n\n## 0.2.26\n\n- New /approved-tools command for managing tool permissions\n- Word-level diff display for improved code readability\n- Fuzzy matching for slash commands\n\n## 0.2.21\n\n- Fuzzy matching for /commands\n",
+  "changelogLastFetched": 1752353988781,
+  "fallbackAvailableWarningThreshold": 0.5,
+  "hasAcknowledgedCostThreshold": true,
+  "lastReleaseNotesSeen": "1.0.51",
+  "bypassPermissionsModeAccepted": true
+}

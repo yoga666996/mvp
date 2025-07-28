@@ -1,0 +1,43 @@
+{
+  "name": "WordSearch.sbs - Free Word Games",
+  "short_name": "WordSearch",
+  "description": "Play 6+ free word search games online! Best collection of crossword puzzles, word scramble & brain teasers. No download - play instantly!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#007AFF",
+  "theme_color": "#007AFF",
+  "orientation": "any",
+  "categories": ["games", "education", "puzzle"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/images/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
