@@ -1,154 +1,1698 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazing Word Search - Play Free Online Word Puzzle Game</title>
-    <meta name="description" content="Play Amazing Word Search online for free! Challenge your mind with this fun and relaxing word puzzle game. Find hidden words and improve your vocabulary.">
-    <link rel="canonical" href="https://amazingwordsearch.cn">
-    <meta property="og:title" content="Amazing Word Search - Play Free Online Word Puzzle Game">
-    <meta property="og:description" content="Challenge your mind with Amazing Word Search! Find hidden words and improve your vocabulary in this relaxing online puzzle game.">
-    <meta property="og:url" content="https://amazingwordsearch.cn">
-    <meta property="og:type" content="website">
-    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1QBDMTPFQ2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1QBDMTPFQ2');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Word Search Games Online - Play WordSearch & Crossword Puzzles | WordSearch.sbs</title>
+    <meta name="description" content="Play 6+ free word search games online! Best collection of crossword puzzles, word scramble, word search & brain teasers. No download - play instantly on PC & mobile. Start your brain training now!">
+    <meta name="keywords" content="free word search games, online crossword puzzles, word games, word puzzles, brain games, word finder, wordgames, wordsearch, crossword solver, vocabulary games, puzzle games online, brain training games">
+    <meta name="author" content="WordSearch.sbs Team">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="geo.region" content="US">
+    <meta name="geo.placename" content="United States">
+    <meta name="theme-color" content="#007AFF">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Free Word Search Games Online - Play WordSearch & Crossword Puzzles">
+    <meta property="og:description" content="Play 6+ free word search games online! Best collection of crossword puzzles, word scramble & brain teasers. No download - play instantly!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wordsearch.sbs">
+    <meta property="og:site_name" content="WordSearch.sbs - Free Word Games">
+    <meta property="og:image" content="https://wordsearch.sbs/images/og-word-games.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@WordSearchSBS">
+    <meta name="twitter:creator" content="@WordSearchSBS">
+    <meta name="twitter:title" content="Free Word Search Games Online - Brain Training Puzzles">
+    <meta name="twitter:description" content="Play 6+ free word search games! Crossword puzzles, word scramble & brain teasers. Perfect for brain training - no download required!">
+    <meta name="twitter:image" content="https://wordsearch.sbs/images/twitter-word-games.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://wordsearch.sbs">
+    
+    <!-- Preload critical resources for performance -->
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    <link rel="preconnect" href="https://games.crazygames.com" crossorigin>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    
+    <!-- PWA & Mobile optimization -->
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#007AFF">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="WordSearch Games">
+    
+    <!-- Favicon with better browser support -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
                         'apple-blue': '#007AFF',
-                        'apple-gray': '#8E8E93',
                         'apple-green': '#34C759',
-                        'apple-dark': '#1C1C1E',
-                        'apple-light': '#F2F2F7'
+                        'apple-orange': '#FF9500',
+                        'apple-red': '#FF3B30',
+                        'apple-purple': '#AF52DE',
+                        'apple-gray': '#8E8E93',
+                        'apple-gray-light': '#F2F2F7',
+                        'apple-gray-dark': '#1C1C1E',
                     }
                 }
             }
         }
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-1QBDMTPFQ2');
     </script>
-</head>
-<body class="bg-apple-light text-apple-dark min-h-screen flex flex-col">
-    <header class="bg-white shadow-md">
-        <nav class="container mx-auto px-4 py-6 flex justify-between items-center">
-            <a href="/" class="text-2xl font-bold text-apple-blue">Amazing Word Search</a>
-            <div class="hidden md:flex space-x-6">
-                <a href="#play" class="hover:text-apple-blue transition-colors">Play</a>
-                <a href="#about" class="hover:text-apple-blue transition-colors">About</a>
-                <a href="#features" class="hover:text-apple-blue transition-colors">Features</a>
-            </div>
-        </nav>
-    </header>
-
-    <main class="container mx-auto px-4 py-8 flex-1">
-        <section class="text-center mb-12">
-            <h1 class="text-4xl md:text-6xl font-bold mb-4 text-apple-dark">
-                Amazing Word Search
-            </h1>
-            <p class="text-xl md:text-2xl text-apple-gray mb-8">
-                Find hidden words, challenge your mind, and relax with this classic word puzzle game!
-            </p>
-        </section>
-
-        <section id="play" class="mb-16">
-            <h2 class="text-3xl font-bold mb-6 text-apple-blue">Play Amazing Word Search Online</h2>
-            <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl bg-black">
-                <iframe 
-                  src="https://html5.gamedistribution.com/d89ebfa990334980bfe001c2de8c392d/?gd_sdk_referrer_url=https%3A%2F%2Fzh.y8.com%2Fgames%2Famazing_word_search&key=y8&value=default" 
-                  class="w-full h-full" 
-                  frameborder="0" 
-                  allowfullscreen 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  loading="lazy"
-                  title="Amazing Word Search Game"></iframe>
-            </div>
-        </section>
-
-        <section id="about" class="mb-16">
-            <h2 class="text-3xl font-bold mb-6 text-apple-blue">About the Game</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="space-y-4">
-                    <p class="text-lg">
-                        <strong>Amazing Word Search</strong> is a relaxing and fun online word puzzle game. Search for hidden words in a grid, improve your vocabulary, and train your brain with each new puzzle.
-                    </p>
-                    <p class="text-lg">
-                        Perfect for all ages, this game offers endless entertainment and a great way to unwind while keeping your mind sharp.
-                    </p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-bold mb-4">Game Details</h3>
-                    <ul class="space-y-2">
-                        <li>🧩 <strong>Genre:</strong> Word Puzzle</li>
-                        <li>⚡ <strong>Platform:</strong> Browser (PC & Mobile)</li>
-                        <li>🌟 <strong>Player Rating:</strong> 4.8/5</li>
-                        <li>🕹️ <strong>Controls:</strong> Mouse / Touch</li>
-                        <li>🚀 <strong>Release:</strong> 2024</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="features" class="mb-16">
-            <h2 class="text-3xl font-bold mb-6 text-apple-blue">Key Features</h2>
-            <div class="grid md:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-bold mb-3">Endless Puzzles</h3>
-                    <p>Enjoy countless word search puzzles with varying difficulty levels.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-bold mb-3">Brain Training</h3>
-                    <p>Sharpen your mind and expand your vocabulary as you play.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-bold mb-3">Relaxing Gameplay</h3>
-                    <p>Unwind with soothing visuals and stress-free word search fun.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="text-center mb-16">
-            <h2 class="text-3xl font-bold mb-6 text-apple-blue">Ready to Find Some Words?</h2>
-            <a href="#play" class="inline-block bg-apple-blue text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-600 transition-colors">
-                Play Now
-            </a>
-        </section>
-    </main>
-
-    <footer class="bg-apple-dark text-white py-8">
-        <div class="container mx-auto px-4">
-            <div class="grid md:grid-cols-2 gap-8">
-                <div>
-                    <h2 class="text-2xl font-bold mb-4">Amazing Word Search</h2>
-                    <p class="text-apple-gray">
-                        The classic online word puzzle game. Find words, relax, and have fun!
-                    </p>
-                </div>
-                <div class="text-right">
-                    <p class="text-apple-gray">© 2024 Amazing Word Search. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Aspect Ratio Utility for iframe -->
+    
+    <!-- Custom Styles -->
     <style>
-        .aspect-w-16 {
-            position: relative;
-            padding-bottom: 56.25%;
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
-        .aspect-w-16 iframe {
+        
+        .apple-gradient {
+            background: linear-gradient(135deg, #007AFF 0%, #AF52DE 100%);
+        }
+        
+        .game-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.125);
+            border-radius: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .feature-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 32px 64px -12px rgba(0, 122, 255, 0.4);
+            background: rgba(255, 255, 255, 0.95);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #007AFF 0%, #0056CC 100%);
+            box-shadow: 0 4px 15px 0 rgba(0, 122, 255, 0.75);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 25px 0 rgba(0, 122, 255, 0.6);
+        }
+        
+        .btn-primary:active {
+            transform: translateY(0px);
+        }
+        
+        .section-divider {
+            background: linear-gradient(90deg, transparent, rgba(0, 122, 255, 0.3), transparent);
+            height: 1px;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+        
+        .animate-delay-100 { animation-delay: 0.1s; }
+        .animate-delay-200 { animation-delay: 0.2s; }
+        .animate-delay-300 { animation-delay: 0.3s; }
+        
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            .game-container {
+                border-radius: 16px;
+                margin: 0 16px;
+            }
+            
+            .hero-title {
+                font-size: 2.5rem;
+            }
+        }
+        
+        /* Game iframe responsive */
+        .game-wrapper {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        }
+        
+        .game-wrapper iframe {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
+            border-radius: 12px;
+        }
+        
+        /* Game tabs styling */
+        .game-tab {
+            background: rgba(255, 255, 255, 0.8);
+            border: 2px solid rgba(0, 122, 255, 0.2);
+            border-radius: 12px;
+            padding: 8px 16px;
+            font-weight: 600;
+            color: #007AFF;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+        }
+        
+        .game-tab:hover {
+            background: rgba(0, 122, 255, 0.1);
+            border-color: #007AFF;
+            transform: translateY(-2px);
+        }
+        
+        .game-tab.active {
+            background: #007AFF;
+            color: white;
+            border-color: #007AFF;
+            box-shadow: 0 4px 15px rgba(0, 122, 255, 0.4);
+        }
+        
+        .game-tab.active:hover {
+            background: #0056CC;
+            transform: translateY(-2px);
+        }
+        
+        /* Social buttons styling */
+        .social-btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            color: white;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .social-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .share-btn {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            color: white;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .share-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Star rating styles */
+        .star, .star-comment {
+            cursor: pointer;
+            font-size: 18px;
+            opacity: 0.3;
+            transition: all 0.2s ease;
+        }
+        
+        .star:hover, .star-comment:hover,
+        .star.active, .star-comment.active {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        
+        /* Community card hover effects */
+        .community-card {
+            transition: all 0.3s ease;
+        }
+        
+        .community-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+        }
+        
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            max-width: 90%;
+            max-height: 90%;
+            overflow-y: auto;
+            position: relative;
+            animation: modalSlideIn 0.3s ease;
+        }
+        
+        @keyframes modalSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .close-modal {
+            position: absolute;
+            right: 1rem;
+            top: 1rem;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #666;
+            transition: color 0.2s;
+        }
+        
+        .close-modal:hover {
+            color: #000;
+        }
+        
+        /* Achievement badge styles */
+        .achievement-badge {
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .achievement-badge:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+        }
+        
+        .achievement-badge.locked {
+            background: linear-gradient(135deg, #E5E7EB, #9CA3AF);
+            opacity: 0.6;
+        }
+        
+        /* Toast notification styles */
+        .toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #10B981, #059669);
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            z-index: 1001;
+            transform: translateX(400px);
+            transition: transform 0.3s ease;
+        }
+        
+        .toast.show {
+            transform: translateX(0);
+        }
+        
+        /* Comment interaction styles */
+        .comment-item {
+            transition: all 0.3s ease;
+        }
+        
+        .comment-item:hover {
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
         }
     </style>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "WordSearch.sbs - Free Word Search Games",
+        "alternateName": ["Word Search Games Online", "Free Word Puzzles", "Brain Training Games"],
+        "url": "https://wordsearch.sbs",
+        "description": "Play 6+ free word search games online! Best collection of crossword puzzles, word scramble, word search & brain teasers. No download - play instantly on PC & mobile.",
+        "inLanguage": "en-US",
+        "dateCreated": "2025-01-01",
+        "dateModified": "2025-07-28",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://wordsearch.sbs/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "WordSearch.sbs",
+            "url": "https://wordsearch.sbs",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://wordsearch.sbs/images/logo.png"
+            }
+        },
+        "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": 6,
+            "itemListElement": [
+                {
+                    "@type": "Game",
+                    "position": 1,
+                    "name": "Word Search",
+                    "description": "Classic word search puzzle game"
+                },
+                {
+                    "@type": "Game",
+                    "position": 2,
+                    "name": "Crossword Puzzle",
+                    "description": "Traditional crossword puzzle game"
+                },
+                {
+                    "@type": "Game",
+                    "position": 3,
+                    "name": "Word Meister",
+                    "description": "Advanced word building game"
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "WordSearch.sbs Games",
+        "description": "Free online word search games and brain training puzzles. Play crossword, word scramble, and vocabulary games instantly in your browser.",
+        "url": "https://wordsearch.sbs",
+        "applicationCategory": "Game",
+        "operatingSystem": ["Web Browser", "iOS", "Android", "Windows", "macOS"],
+        "browserRequirements": "Requires JavaScript. Chrome 60+, Firefox 55+, Safari 11+, Edge 79+",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "1247",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Alex Chen"
+                },
+                "datePublished": "2025-07-26",
+                "reviewBody": "Amazing collection of word games! I especially love the crossword puzzles. The interface is clean and responsive. Perfect for my daily brain training routine!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Are these word games completely free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! All word games on WordSearch.sbs are 100% free to play. No registration, no fees, no hidden costs. Just instant puzzle-solving fun on any device."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I play these games on mobile devices?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely! Our word games are fully responsive and work perfectly on smartphones, tablets, and desktop computers. No download required - play directly in your browser."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What types of word games are available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer 6 different types of word games including Word Search, Crossword Puzzles, Word Meister, Word Scramble, Waffle Words, and Word Wipe. Each game offers unique challenges for brain training."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body class="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 min-h-screen">
+    <!-- Header -->
+    <header class="apple-gradient shadow-2xl sticky top-0 z-50" role="banner">
+        <div class="container mx-auto px-4 py-4 md:py-6">
+            <nav class="flex items-center justify-between" role="navigation" aria-label="Main navigation">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 md:w-12 md:h-12 bg-white rounded-2xl flex items-center justify-center shadow-lg" role="img" aria-label="WordSearch.sbs logo">
+                        <span class="text-xl md:text-2xl">🔍</span>
+                    </div>
+                    <div>
+                        <h1 class="text-xl md:text-2xl font-bold text-white leading-tight">WordSearch.sbs</h1>
+                        <p class="text-xs md:text-sm text-blue-100 opacity-90">Free Word Games</p>
+                    </div>
+                </div>
+                <button class="bg-white bg-opacity-20 backdrop-blur-sm text-white px-4 py-2 rounded-xl hover:bg-opacity-30 transition-all duration-300 border border-white border-opacity-20" aria-label="Open navigation menu">
+                    <span class="hidden md:inline">Menu</span>
+                    <span class="md:hidden">☰</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto px-4 py-8 md:py-16" role="main">
+        <div class="text-center mb-8 md:mb-16 animate-fade-in-up">
+            <h1 class="hero-title text-4xl md:text-6xl lg:text-7xl font-bold text-gray-800 mb-4 md:mb-6 leading-tight">
+                Free Online 
+                <span class="bg-gradient-to-r from-apple-blue via-apple-purple to-apple-blue bg-clip-text text-transparent animate-pulse">
+                    Word Search Games
+                </span>
+            </h1>
+            <p class="text-lg md:text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed animate-delay-100">
+                Challenge your mind with our collection of <strong>free word puzzles</strong> and <strong>brain teasers</strong> - perfect for all ages and skill levels!
+            </p>
+        </div>
+        
+        <!-- Main Game Section -->
+        <div class="max-w-6xl mx-auto mb-8 md:mb-16 animate-fade-in-up animate-delay-200">
+            <div class="game-container p-4 md:p-6">
+                <div class="mb-6">
+                    <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 mb-4">
+                        <div>
+                            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">🎯 Choose Your Word Game</h2>
+                            <p class="text-gray-600">Select from our collection of exciting word puzzles and brain teasers!</p>
+                        </div>
+                        
+                        <!-- Social Actions -->
+                        <div class="flex flex-wrap gap-2">
+                            <button id="shareBtn" class="social-btn bg-blue-500 hover:bg-blue-600">
+                                🔗 Share Game
+                            </button>
+                            <button id="challengeBtn" class="social-btn bg-green-500 hover:bg-green-600">
+                                ⚡ Challenge Friends
+                            </button>
+                            <button id="achievementsBtn" class="social-btn bg-purple-500 hover:bg-purple-600">
+                                🏆 Achievements
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Game Selection Tabs -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <button class="game-tab active" data-game="word-search" data-title="Word Search">
+                            🔍 Word Search
+                        </button>
+                        <button class="game-tab" data-game="crossword" data-title="Crossword Puzzle">
+                            📝 Crossword
+                        </button>
+                        <button class="game-tab" data-game="wordmeister" data-title="Word Meister">
+                            🎯 WordMeister
+                        </button>
+                        <button class="game-tab" data-game="word-scramble" data-title="Word Scramble">
+                            🔄 Word Scramble
+                        </button>
+                        <button class="game-tab" data-game="waffle-words" data-title="Waffle Words">
+                            🧇 Waffle Words
+                        </button>
+                        <button class="game-tab" data-game="word-wipe" data-title="Word Wipe">
+                            ✨ Word Wipe
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- User Stats Panel -->
+                <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-4 mb-6">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                        <div class="stat-item">
+                            <div class="text-2xl font-bold text-blue-600" id="gamesPlayed">0</div>
+                            <div class="text-sm text-gray-600">Games Played</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="text-2xl font-bold text-green-600" id="totalTime">0m</div>
+                            <div class="text-sm text-gray-600">Total Time</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="text-2xl font-bold text-purple-600" id="achievements">0</div>
+                            <div class="text-sm text-gray-600">Achievements</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="text-2xl font-bold text-orange-600" id="streak">0</div>
+                            <div class="text-sm text-gray-600">Daily Streak</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-wrapper">
+                    <iframe 
+                        id="gameFrame"
+                        src="https://games.crazygames.com/en_US/word-search/index.html" 
+                        width="100%" 
+                        height="600" 
+                        scrolling="no" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; focus-without-user-activation *;" 
+                        allowfullscreen
+                        title="Free Word Search Games - Play Online Now"
+                        loading="lazy">
+                    </iframe>
+                </div>
+                
+                <!-- Social Features Section -->
+                <div class="mt-6 grid md:grid-cols-2 gap-6">
+                    <!-- Quick Rating -->
+                    <div class="bg-white rounded-2xl p-4 shadow-lg">
+                        <h3 class="text-lg font-bold text-gray-800 mb-3">📝 Rate This Game</h3>
+                        <div class="flex items-center gap-2 mb-3">
+                            <div class="star-rating" data-rating="0">
+                                <span class="star" data-value="1">⭐</span>
+                                <span class="star" data-value="2">⭐</span>
+                                <span class="star" data-value="3">⭐</span>
+                                <span class="star" data-value="4">⭐</span>
+                                <span class="star" data-value="5">⭐</span>
+                            </div>
+                            <span class="text-sm text-gray-600" id="currentRating">Rate it!</span>
+                        </div>
+                        <div class="text-sm text-gray-500">
+                            Average: <span id="avgRating">4.8</span>/5 (<span id="totalRatings">1,247</span> ratings)
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Share -->
+                    <div class="bg-white rounded-2xl p-4 shadow-lg">
+                        <h3 class="text-lg font-bold text-gray-800 mb-3">🚀 Share & Challenge</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="share-btn bg-blue-600 hover:bg-blue-700" data-platform="facebook">
+                                📘 Facebook
+                            </button>
+                            <button class="share-btn bg-blue-400 hover:bg-blue-500" data-platform="twitter">
+                                🐦 Twitter
+                            </button>
+                            <button class="share-btn bg-green-500 hover:bg-green-600" data-platform="whatsapp">
+                                💬 WhatsApp
+                            </button>
+                            <button class="share-btn bg-gray-700 hover:bg-gray-800" data-platform="copy">
+                                📋 Copy Link
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community & Social Section -->
+    <section class="bg-gradient-to-br from-indigo-50 via-blue-50 to-purple-50 py-12 md:py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-4 animate-fade-in-up">
+                🌟 Join Our Word Game Community
+            </h2>
+            <p class="text-center text-gray-600 mb-12 md:mb-16 max-w-3xl mx-auto animate-fade-in-up animate-delay-100">
+                Connect with thousands of word puzzle enthusiasts worldwide. Share strategies, compete in challenges, and celebrate achievements together!
+            </p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Daily Challenge -->
+                <div class="community-card bg-white rounded-2xl p-6 shadow-lg animate-fade-in-up">
+                    <div class="text-center mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl text-white">⚡</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Daily Challenge</h3>
+                        <p class="text-gray-600 text-sm mb-4">Complete today's special puzzle and earn bonus points!</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-3 text-center mb-4">
+                        <div class="text-lg font-bold text-orange-600">Today's Theme: Animals</div>
+                        <div class="text-sm text-gray-500">Participants: 2,847</div>
+                    </div>
+                    <button class="w-full bg-gradient-to-r from-orange-500 to-yellow-500 text-white py-2 rounded-lg font-medium hover:shadow-lg transition-all">
+                        Join Challenge
+                    </button>
+                </div>
+                
+                <!-- Leaderboard -->
+                <div class="community-card bg-white rounded-2xl p-6 shadow-lg animate-fade-in-up animate-delay-100">
+                    <div class="text-center mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl text-white">🏆</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Weekly Leaderboard</h3>
+                        <p class="text-gray-600 text-sm mb-4">See how you rank against other players this week</p>
+                    </div>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex items-center justify-between bg-yellow-50 p-2 rounded-lg">
+                            <span class="text-sm font-medium">🥇 WordMaster2025</span>
+                            <span class="text-sm text-yellow-600 font-bold">15,420 pts</span>
+                        </div>
+                        <div class="flex items-center justify-between bg-gray-50 p-2 rounded-lg">
+                            <span class="text-sm font-medium">🥈 PuzzlePro</span>
+                            <span class="text-sm text-gray-600 font-bold">14,880 pts</span>
+                        </div>
+                        <div class="flex items-center justify-between bg-orange-50 p-2 rounded-lg">
+                            <span class="text-sm font-medium">🥉 WordWizard</span>
+                            <span class="text-sm text-orange-600 font-bold">14,250 pts</span>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-2 rounded-lg font-medium hover:shadow-lg transition-all">
+                        View Full Rankings
+                    </button>
+                </div>
+                
+                <!-- Community Stats -->
+                <div class="community-card bg-white rounded-2xl p-6 shadow-lg animate-fade-in-up animate-delay-200">
+                    <div class="text-center mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <span class="text-3xl text-white">👥</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Community Stats</h3>
+                        <p class="text-gray-600 text-sm mb-4">Join our growing community of word enthusiasts</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 mb-4">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-blue-600">125K+</div>
+                            <div class="text-xs text-gray-500">Active Players</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-green-600">2.8M+</div>
+                            <div class="text-xs text-gray-500">Games Played</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-purple-600">89%</div>
+                            <div class="text-xs text-gray-500">Happy Players</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-orange-600">24/7</div>
+                            <div class="text-xs text-gray-500">Online Support</div>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gradient-to-r from-blue-500 to-green-500 text-white py-2 rounded-lg font-medium hover:shadow-lg transition-all">
+                        Join Community
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="bg-white py-12 md:py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">
+                    💬 Player Reviews & Comments
+                </h2>
+                
+                <!-- Comment Form -->
+                <div class="bg-gray-50 rounded-2xl p-6 mb-8">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Share Your Experience</h3>
+                    <div class="mb-4">
+                        <input type="text" placeholder="Your name (optional)" class="w-full p-3 border border-gray-200 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <textarea placeholder="Tell us what you think about these word games..." class="w-full p-3 border border-gray-200 rounded-lg h-24 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center gap-2">
+                            <span class="text-sm text-gray-600">Rate your experience:</span>
+                            <div class="star-rating-comment" data-rating="0">
+                                <span class="star-comment" data-value="1">⭐</span>
+                                <span class="star-comment" data-value="2">⭐</span>
+                                <span class="star-comment" data-value="3">⭐</span>
+                                <span class="star-comment" data-value="4">⭐</span>
+                                <span class="star-comment" data-value="5">⭐</span>
+                            </div>
+                        </div>
+                        <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
+                            Post Comment
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Sample Comments -->
+                <div class="space-y-6">
+                    <div class="comment-item bg-white border border-gray-200 rounded-2xl p-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold">
+                                A
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <h4 class="font-bold text-gray-800">Alex Chen</h4>
+                                    <div class="flex text-yellow-400">⭐⭐⭐⭐⭐</div>
+                                    <span class="text-xs text-gray-500">2 hours ago</span>
+                                </div>
+                                <p class="text-gray-700 mb-3">Amazing collection of word games! I especially love the crossword puzzles. The interface is clean and responsive. Perfect for my daily brain training routine! 🧠✨</p>
+                                <div class="flex items-center gap-4 text-sm text-gray-500">
+                                    <button class="hover:text-blue-600">👍 Like (23)</button>
+                                    <button class="hover:text-blue-600">💬 Reply</button>
+                                    <button class="hover:text-blue-600">🔗 Share</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="comment-item bg-white border border-gray-200 rounded-2xl p-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white font-bold">
+                                M
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <h4 class="font-bold text-gray-800">Maria Rodriguez</h4>
+                                    <div class="flex text-yellow-400">⭐⭐⭐⭐⭐</div>
+                                    <span class="text-xs text-gray-500">5 hours ago</span>
+                                </div>
+                                <p class="text-gray-700 mb-3">My kids and I play these games together every evening. Great way to improve vocabulary while having fun as a family. The word scramble is our favorite! 👨‍👩‍👧‍👦</p>
+                                <div class="flex items-center gap-4 text-sm text-gray-500">
+                                    <button class="hover:text-blue-600">👍 Like (45)</button>
+                                    <button class="hover:text-blue-600">💬 Reply</button>
+                                    <button class="hover:text-blue-600">🔗 Share</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="comment-item bg-white border border-gray-200 rounded-2xl p-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold">
+                                J
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <h4 class="font-bold text-gray-800">James Wilson</h4>
+                                    <div class="flex text-yellow-400">⭐⭐⭐⭐⭐</div>
+                                    <span class="text-xs text-gray-500">1 day ago</span>
+                                </div>
+                                <p class="text-gray-700 mb-3">Been playing word games for years, and this site has the best collection I've found. Fast loading, no ads interrupting gameplay, and great variety. Highly recommended! 🎯</p>
+                                <div class="flex items-center gap-4 text-sm text-gray-500">
+                                    <button class="hover:text-blue-600">👍 Like (67)</button>
+                                    <button class="hover:text-blue-600">💬 Reply</button>
+                                    <button class="hover:text-blue-600">🔗 Share</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-8">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium transition-colors">
+                        Load More Comments
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 md:py-20">
+        <div class="container mx-auto px-4">
+            <div class="section-divider mb-12"></div>
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-4 animate-fade-in-up">
+                Why Choose Our Word Games?
+            </h2>
+            <p class="text-center text-gray-600 mb-12 md:mb-16 max-w-2xl mx-auto animate-fade-in-up animate-delay-100">
+                Discover the perfect blend of entertainment and brain training with our carefully curated collection of word puzzles.
+            </p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <div class="feature-card p-6 md:p-8 text-center rounded-2xl animate-fade-in-up">
+                    <div class="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-apple-blue to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+                        <span class="text-2xl md:text-3xl text-white">🧠</span>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">Brain Training Excellence</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Enhance cognitive abilities, improve memory, boost focus, and expand vocabulary through engaging word puzzles designed by experts.
+                    </p>
+                </div>
+                
+                <div class="feature-card p-6 md:p-8 text-center rounded-2xl animate-fade-in-up animate-delay-100">
+                    <div class="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-apple-green to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+                        <span class="text-2xl md:text-3xl text-white">📱</span>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">Perfect Mobile Experience</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Play seamlessly across all devices - desktop, tablet, smartphone. Responsive design ensures optimal gameplay anywhere, anytime.
+                    </p>
+                </div>
+                
+                <div class="feature-card p-6 md:p-8 text-center rounded-2xl animate-fade-in-up animate-delay-200">
+                    <div class="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-apple-purple to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+                        <span class="text-2xl md:text-3xl text-white">🆓</span>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">Completely Free Forever</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Unlimited access to premium word search games. No registration, no fees, no hidden costs - just pure puzzle-solving fun.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Word Search Games -->
+    <section class="bg-white bg-opacity-60 backdrop-blur-sm py-12 md:py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-8 md:mb-12 animate-fade-in-up">
+                    Master the Art of Word Search
+                </h2>
+                
+                <div class="prose prose-lg md:prose-xl mx-auto text-gray-700">
+                    <p class="text-xl md:text-2xl leading-relaxed mb-8 text-center font-medium animate-fade-in-up animate-delay-100">
+                        Word search games are timeless puzzle classics that blend entertainment with cognitive enhancement, offering players an engaging way to sharpen their minds while having fun.
+                    </p>
+                    
+                    <div class="grid md:grid-cols-2 gap-8 md:gap-12 mt-12">
+                        <div class="animate-fade-in-up animate-delay-200">
+                            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                                <span class="text-3xl mr-3">🎯</span> How to Play Like a Pro
+                            </h2>
+                            <ul class="space-y-4 text-gray-700">
+                                <li class="flex items-start">
+                                    <span class="text-apple-blue font-bold mr-2">•</span>
+                                    Scan the letter grid systematically to locate hidden words
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-apple-blue font-bold mr-2">•</span>
+                                    Words can appear horizontally, vertically, or diagonally
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-apple-blue font-bold mr-2">•</span>
+                                    Check forwards and backwards in all directions
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-apple-blue font-bold mr-2">•</span>
+                                    Circle or highlight each discovered word
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-apple-blue font-bold mr-2">•</span>
+                                    Complete the puzzle by finding all listed words
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="animate-fade-in-up animate-delay-300">
+                            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                                <span class="text-3xl mr-3">🚀</span> Cognitive Benefits
+                            </h2>
+                            <ul class="space-y-4 text-gray-700">
+                                <li class="flex items-start">
+                                    <span class="text-apple-green font-bold mr-2">✓</span>
+                                    Enhanced vocabulary and spelling proficiency
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-apple-green font-bold mr-2">✓</span>
+                                    Improved pattern recognition skills
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-apple-green font-bold mr-2">✓</span>
+                                    Increased concentration and mental focus
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-apple-green font-bold mr-2">✓</span>
+                                    Stress relief and mindful relaxation
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-apple-green font-bold mr-2">✓</span>
+                                    Memory enhancement and cognitive exercise
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-12 p-6 md:p-8 bg-gradient-to-r from-apple-blue to-apple-purple rounded-2xl text-white animate-fade-in-up animate-delay-300">
+                        <h2 class="text-2xl md:text-3xl font-bold mb-4 flex items-center">
+                            <span class="text-3xl mr-3">⭐</span> Premium Game Features
+                        </h2>
+                        <p class="text-lg md:text-xl leading-relaxed">
+                            Our word search collection offers multiple difficulty levels from beginner-friendly 8x8 grids to expert-level 25x25 challenges. 
+                            Whether you're just starting your word puzzle journey or you're a seasoned solver seeking the ultimate brain workout, 
+                            our adaptive difficulty system ensures the perfect challenge level for every player.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Categories -->
+    <section class="py-12 md:py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-4 animate-fade-in-up">
+                Explore Word Game Categories
+            </h2>
+            <p class="text-center text-gray-600 mb-12 md:mb-16 max-w-3xl mx-auto animate-fade-in-up animate-delay-100">
+                Discover our diverse collection of word puzzles designed to challenge different aspects of your linguistic and cognitive abilities.
+            </p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="feature-card p-6 text-center rounded-2xl animate-fade-in-up">
+                    <div class="text-4xl md:text-5xl mb-4">🔍</div>
+                    <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-2">Classic Word Search</h3>
+                    <p class="text-gray-600 text-sm">Traditional grid-based word finding puzzles</p>
+                </div>
+                
+                <div class="feature-card p-6 text-center rounded-2xl animate-fade-in-up animate-delay-100">
+                    <div class="text-4xl md:text-5xl mb-4">🧩</div>
+                    <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-2">Word Games</h3>
+                    <p class="text-gray-600 text-sm">Interactive vocabulary challenges and puzzles</p>
+                </div>
+                
+                <div class="feature-card p-6 text-center rounded-2xl animate-fade-in-up animate-delay-200">
+                    <div class="text-4xl md:text-5xl mb-4">⚡</div>
+                    <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-2">Speed Challenges</h3>
+                    <p class="text-gray-600 text-sm">Timed puzzles for competitive players</p>
+                </div>
+                
+                <div class="feature-card p-6 text-center rounded-2xl animate-fade-in-up animate-delay-300">
+                    <div class="text-4xl md:text-5xl mb-4">🏆</div>
+                    <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-2">Expert Level</h3>
+                    <p class="text-gray-600 text-sm">Advanced puzzles for master solvers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="apple-gradient py-12 md:py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 animate-fade-in-up">
+                Ready to Challenge Your Mind?
+            </h2>
+            <p class="text-lg md:text-xl lg:text-2xl text-white text-opacity-90 mb-8 md:mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animate-delay-100">
+                Join millions of players worldwide who have discovered the joy of word search games. Start your brain training journey today!
+            </p>
+            <button class="btn-primary text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 rounded-2xl font-bold text-white border-0 cursor-pointer animate-fade-in-up animate-delay-200" onclick="document.querySelector('.game-container').scrollIntoView({behavior: 'smooth', block: 'center'})">
+                🎮 Start Playing Now - Free!
+            </button>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <!-- Achievements Modal -->
+    <div id="achievementsModal" class="modal">
+        <div class="modal-content" style="max-width: 800px;">
+            <button class="close-modal">&times;</button>
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">🏆 Your Achievements</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+                <div class="achievement-badge">
+                    <div class="text-4xl mb-2">🎯</div>
+                    <h3 class="font-bold text-gray-800">First Game</h3>
+                    <p class="text-sm text-gray-600">Played your first word game</p>
+                    <div class="text-xs text-gray-500 mt-2">Unlocked!</div>
+                </div>
+                
+                <div class="achievement-badge">
+                    <div class="text-4xl mb-2">🔥</div>
+                    <h3 class="font-bold text-gray-800">On Fire</h3>
+                    <p class="text-sm text-gray-600">Play 5 games in one day</p>
+                    <div class="text-xs text-gray-500 mt-2">Unlocked!</div>
+                </div>
+                
+                <div class="achievement-badge locked">
+                    <div class="text-4xl mb-2">⚡</div>
+                    <h3 class="font-bold text-gray-500">Speed Demon</h3>
+                    <p class="text-sm text-gray-500">Complete a puzzle in under 60 seconds</p>
+                    <div class="text-xs text-gray-400 mt-2">Locked</div>
+                </div>
+                
+                <div class="achievement-badge">
+                    <div class="text-4xl mb-2">📚</div>
+                    <h3 class="font-bold text-gray-800">Word Master</h3>
+                    <p class="text-sm text-gray-600">Play all 6 game types</p>
+                    <div class="text-xs text-gray-500 mt-2">Unlocked!</div>
+                </div>
+                
+                <div class="achievement-badge locked">
+                    <div class="text-4xl mb-2">👑</div>
+                    <h3 class="font-bold text-gray-500">Champion</h3>
+                    <p class="text-sm text-gray-500">Reach top 10 on leaderboard</p>
+                    <div class="text-xs text-gray-400 mt-2">Locked</div>
+                </div>
+                
+                <div class="achievement-badge locked">
+                    <div class="text-4xl mb-2">🌟</div>
+                    <h3 class="font-bold text-gray-500">Perfect Week</h3>
+                    <p class="text-sm text-gray-500">Play every day for a week</p>
+                    <div class="text-xs text-gray-400 mt-2">Locked</div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <p class="text-gray-600 mb-4">Progress: 3/6 achievements unlocked</p>
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-gradient-to-r from-yellow-400 to-orange-500 h-3 rounded-full" style="width: 50%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Share Modal -->
+    <div id="shareModal" class="modal">
+        <div class="modal-content" style="max-width: 500px;">
+            <button class="close-modal">&times;</button>
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">🔗 Share Word Games</h2>
+            
+            <div class="space-y-4">
+                <button class="w-full bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-lg flex items-center justify-center gap-3 transition-colors" onclick="shareToFacebook()">
+                    <span class="text-2xl">📘</span>
+                    <span class="font-medium">Share on Facebook</span>
+                </button>
+                
+                <button class="w-full bg-blue-400 hover:bg-blue-500 text-white p-4 rounded-lg flex items-center justify-center gap-3 transition-colors" onclick="shareToTwitter()">
+                    <span class="text-2xl">🐦</span>
+                    <span class="font-medium">Share on Twitter</span>
+                </button>
+                
+                <button class="w-full bg-green-500 hover:bg-green-600 text-white p-4 rounded-lg flex items-center justify-center gap-3 transition-colors" onclick="shareToWhatsApp()">
+                    <span class="text-2xl">💬</span>
+                    <span class="font-medium">Share on WhatsApp</span>
+                </button>
+                
+                <button class="w-full bg-gray-700 hover:bg-gray-800 text-white p-4 rounded-lg flex items-center justify-center gap-3 transition-colors" onclick="copyToClipboard()">
+                    <span class="text-2xl">📋</span>
+                    <span class="font-medium">Copy Link</span>
+                </button>
+            </div>
+            
+            <div class="mt-6 p-4 bg-gray-50 rounded-lg">
+                <p class="text-sm text-gray-600 mb-2">Share this message:</p>
+                <p class="text-gray-800 italic">"I'm having a blast playing word games on WordSearch.sbs! 🧠✨ Join me for some brain training fun with crosswords, word search, and more puzzle games! #WordGames #BrainTraining"</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Challenge Friends Modal -->
+    <div id="challengeModal" class="modal">
+        <div class="modal-content" style="max-width: 600px;">
+            <button class="close-modal">&times;</button>
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">⚡ Challenge Your Friends</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 p-6 rounded-xl">
+                    <h3 class="text-lg font-bold text-gray-800 mb-3">🎯 Quick Challenge</h3>
+                    <p class="text-gray-600 text-sm mb-4">Send a challenge link to your friends to compete in the same puzzle!</p>
+                    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg font-medium transition-colors">
+                        Create Challenge Link
+                    </button>
+                </div>
+                
+                <div class="bg-gradient-to-br from-green-50 to-blue-50 p-6 rounded-xl">
+                    <h3 class="text-lg font-bold text-gray-800 mb-3">🏆 Score Challenge</h3>
+                    <p class="text-gray-600 text-sm mb-4">Challenge friends to beat your high score in any game!</p>
+                    <div class="text-center mb-3">
+                        <div class="text-2xl font-bold text-green-600">Your Best: 1,250</div>
+                        <div class="text-sm text-gray-500">Word Search</div>
+                    </div>
+                    <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-lg font-medium transition-colors">
+                        Challenge Friends
+                    </button>
+                </div>
+            </div>
+            
+            <div class="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
+                <h4 class="font-bold text-yellow-800 mb-2">🎉 Challenge Rules</h4>
+                <ul class="text-sm text-yellow-700 space-y-1">
+                    <li>• Challenges expire after 24 hours</li>
+                    <li>• Winner gets bragging rights and bonus points</li>
+                    <li>• All friends can see the results</li>
+                    <li>• Fair play is expected - have fun!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 md:py-16" role="contentinfo">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
+                <div class="lg:col-span-2">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-12 h-12 bg-apple-blue rounded-2xl flex items-center justify-center">
+                            <span class="text-2xl">🔍</span>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold">WordSearch.sbs</h3>
+                            <p class="text-gray-400 text-sm">Premium Word Games Platform</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed max-w-md mb-6">
+                        Your ultimate destination for <strong>free online word search games</strong>, <strong>crossword puzzles</strong>, brain training puzzles, and cognitive enhancement through interactive gameplay.
+                    </p>
+                    <!-- Internal Links for SEO -->
+                    <div class="flex flex-wrap gap-4 text-sm">
+                        <a href="#games" class="text-blue-400 hover:text-blue-300 transition-colors">Free Games</a>
+                        <a href="#community" class="text-green-400 hover:text-green-300 transition-colors">Community</a>
+                        <a href="#achievements" class="text-purple-400 hover:text-purple-300 transition-colors">Achievements</a>
+                        <a href="#how-to-play" class="text-orange-400 hover:text-orange-300 transition-colors">How to Play</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Popular Games</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#word-search" class="hover:text-white transition-colors duration-300 flex items-center"><span class="mr-2">🔍</span> <strong>Word Search</strong> - Classic puzzle</a></li>
+                        <li><a href="#crossword" class="hover:text-white transition-colors duration-300 flex items-center"><span class="mr-2">📝</span> <strong>Crossword</strong> - Traditional puzzle</a></li>
+                        <li><a href="#word-scramble" class="hover:text-white transition-colors duration-300 flex items-center"><span class="mr-2">🔄</span> <strong>Word Scramble</strong> - Unscramble words</a></li>
+                        <li><a href="#brain-teasers" class="hover:text-white transition-colors duration-300 flex items-center"><span class="mr-2">🧠</span> <strong>Brain Teasers</strong> - Mental challenges</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Game Categories</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#free-word-games" class="hover:text-white transition-colors duration-300 flex items-center"><span class="mr-2">🎮</span> Free Word Games</a></li>
+                        <li><a href="#vocabulary-games" class="hover:text-white transition-colors duration-300 flex items-center"><span class="mr-2">📚</span> Vocabulary Games</a></li>
+                        <li><a href="#puzzle-games" class="hover:text-white transition-colors duration-300 flex items-center"><span class="mr-2">🧩</span> Puzzle Games</a></li>
+                        <li><a href="#brain-training" class="hover:text-white transition-colors duration-300 flex items-center"><span class="mr-2">💪</span> Brain Training</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section-divider my-8 md:my-12"></div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-center text-gray-400">
+                <p class="mb-4 md:mb-0">
+                    &copy; 2025 WordSearch.sbs. All rights reserved. Made with ❤️ for word game enthusiasts.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="/privacy" class="hover:text-white transition-colors duration-300">Privacy Policy</a>
+                    <a href="/terms" class="hover:text-white transition-colors duration-300">Terms of Service</a>
+                    <a href="/sitemap.xml" class="hover:text-white transition-colors duration-300">Sitemap</a>
+                    <a href="/contact" class="hover:text-white transition-colors duration-300">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Enhanced Interactions and Social Features -->
+    <script>
+        // Game URLs mapping
+        const gameUrls = {
+            'word-search': 'https://games.crazygames.com/en_US/word-search/index.html',
+            'crossword': 'https://games.crazygames.com/en_US/crossword/index.html',
+            'wordmeister': 'https://games.crazygames.com/en_US/wordmeister/index.html',
+            'word-scramble': 'https://games.crazygames.com/en_US/word-scramble/index.html',
+            'waffle-words': 'https://games.crazygames.com/en_US/waffle-words/index.html',
+            'word-wipe': 'https://games.crazygames.com/en_US/word-wipe/index.html'
+        };
+
+        // User stats management
+        class UserStats {
+            constructor() {
+                this.data = this.loadStats();
+                this.updateDisplay();
+                this.startSession();
+            }
+            
+            loadStats() {
+                const savedStats = localStorage.getItem('wordSearchStats');
+                return savedStats ? JSON.parse(savedStats) : {
+                    gamesPlayed: 0,
+                    totalTime: 0,
+                    achievements: 0,
+                    streak: 0,
+                    lastPlayDate: null,
+                    ratings: {},
+                    currentGameStart: null
+                };
+            }
+            
+            saveStats() {
+                localStorage.setItem('wordSearchStats', JSON.stringify(this.data));
+            }
+            
+            updateDisplay() {
+                document.getElementById('gamesPlayed').textContent = this.data.gamesPlayed;
+                document.getElementById('totalTime').textContent = Math.floor(this.data.totalTime / 60) + 'm';
+                document.getElementById('achievements').textContent = this.data.achievements;
+                document.getElementById('streak').textContent = this.data.streak;
+            }
+            
+            startSession() {
+                this.data.currentGameStart = Date.now();
+            }
+            
+            endSession() {
+                if (this.data.currentGameStart) {
+                    const sessionTime = Date.now() - this.data.currentGameStart;
+                    this.data.totalTime += sessionTime / 1000; // Convert to seconds
+                    this.data.gamesPlayed++;
+                    
+                    // Check streak
+                    const today = new Date().toDateString();
+                    if (this.data.lastPlayDate !== today) {
+                        this.data.streak++;
+                        this.data.lastPlayDate = today;
+                    }
+                    
+                    this.saveStats();
+                    this.updateDisplay();
+                    this.checkAchievements();
+                }
+            }
+            
+            checkAchievements() {
+                let newAchievements = 0;
+                
+                // First game achievement
+                if (this.data.gamesPlayed >= 1) newAchievements++;
+                
+                // On fire achievement (5 games in one day)
+                if (this.data.gamesPlayed >= 5) newAchievements++;
+                
+                // Word master achievement (played all game types)
+                if (Object.keys(this.data.ratings).length >= 6) newAchievements++;
+                
+                if (newAchievements > this.data.achievements) {
+                    this.data.achievements = newAchievements;
+                    this.showToast(`🎉 New achievement unlocked!`);
+                }
+            }
+            
+            rateGame(gameType, rating) {
+                this.data.ratings[gameType] = rating;
+                this.saveStats();
+                this.checkAchievements();
+            }
+            
+            showToast(message) {
+                const toast = document.createElement('div');
+                toast.className = 'toast';
+                toast.textContent = message;
+                document.body.appendChild(toast);
+                
+                setTimeout(() => toast.classList.add('show'), 100);
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                    setTimeout(() => toast.remove(), 300);
+                }, 3000);
+            }
+        }
+
+        // Initialize user stats
+        const userStats = new UserStats();
+
+        // Modal management
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.remove('show');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Game switching functionality
+        function switchGame(gameId, gameTitle) {
+            const iframe = document.getElementById('gameFrame');
+            const gameUrl = gameUrls[gameId];
+            
+            if (!gameUrl) {
+                console.error('Game URL not found for:', gameId);
+                return;
+            }
+
+            // End previous session and start new one
+            userStats.endSession();
+            userStats.startSession();
+
+            // Show loading indicator
+            showLoadingIndicator();
+            
+            // Update iframe source
+            iframe.src = gameUrl;
+            iframe.title = `${gameTitle} - Play Free Online`;
+            
+            // Update active tab
+            document.querySelectorAll('.game-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelector(`[data-game="${gameId}"]`).classList.add('active');
+            
+            // Track game switch
+            trackGameInteraction(`game_switched_${gameId}`);
+        }
+
+        // Social sharing functions
+        function shareToFacebook() {
+            const url = encodeURIComponent(window.location.href);
+            const text = encodeURIComponent("Check out these amazing word games on WordSearch.sbs! 🧠✨");
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${text}`, '_blank', 'width=600,height=400');
+            closeModal('shareModal');
+        }
+
+        function shareToTwitter() {
+            const url = encodeURIComponent(window.location.href);
+            const text = encodeURIComponent("Having a blast playing word games on WordSearch.sbs! 🧠✨ Join me for some brain training fun! #WordGames #BrainTraining");
+            window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank', 'width=600,height=400');
+            closeModal('shareModal');
+        }
+
+        function shareToWhatsApp() {
+            const url = encodeURIComponent(window.location.href);
+            const text = encodeURIComponent(`Check out these amazing word games! ${window.location.href}`);
+            window.open(`https://wa.me/?text=${text}`, '_blank');
+            closeModal('shareModal');
+        }
+
+        function copyToClipboard() {
+            navigator.clipboard.writeText(window.location.href).then(() => {
+                userStats.showToast('Link copied to clipboard! 📋');
+                closeModal('shareModal');
+            });
+        }
+
+        // Star rating functionality
+        function initStarRating() {
+            // Game rating stars
+            const starRating = document.querySelector('.star-rating');
+            const stars = starRating.querySelectorAll('.star');
+            
+            stars.forEach((star, index) => {
+                star.addEventListener('click', () => {
+                    const rating = index + 1;
+                    updateStarDisplay(stars, rating);
+                    starRating.dataset.rating = rating;
+                    document.getElementById('currentRating').textContent = `You rated: ${rating}/5`;
+                    
+                    // Save rating
+                    const activeGame = document.querySelector('.game-tab.active').dataset.game;
+                    userStats.rateGame(activeGame, rating);
+                    userStats.showToast(`Thanks for rating! ⭐`);
+                });
+                
+                star.addEventListener('mouseover', () => {
+                    updateStarDisplay(stars, index + 1);
+                });
+            });
+            
+            starRating.addEventListener('mouseleave', () => {
+                const currentRating = parseInt(starRating.dataset.rating);
+                updateStarDisplay(stars, currentRating);
+            });
+
+            // Comment rating stars
+            const commentStarRating = document.querySelector('.star-rating-comment');
+            const commentStars = commentStarRating.querySelectorAll('.star-comment');
+            
+            commentStars.forEach((star, index) => {
+                star.addEventListener('click', () => {
+                    const rating = index + 1;
+                    updateStarDisplay(commentStars, rating);
+                    commentStarRating.dataset.rating = rating;
+                });
+            });
+        }
+
+        function updateStarDisplay(stars, rating) {
+            stars.forEach((star, index) => {
+                if (index < rating) {
+                    star.classList.add('active');
+                } else {
+                    star.classList.remove('active');
+                }
+            });
+        }
+
+        // Initialize all functionality when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize game tabs
+            const gameTabs = document.querySelectorAll('.game-tab');
+            gameTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const gameId = this.dataset.game;
+                    const gameTitle = this.dataset.title;
+                    switchGame(gameId, gameTitle);
+                });
+            });
+
+            // Initialize social buttons
+            document.getElementById('shareBtn').addEventListener('click', () => openModal('shareModal'));
+            document.getElementById('challengeBtn').addEventListener('click', () => openModal('challengeModal'));
+            document.getElementById('achievementsBtn').addEventListener('click', () => openModal('achievementsModal'));
+
+            // Initialize modal close buttons
+            document.querySelectorAll('.close-modal').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const modal = this.closest('.modal');
+                    closeModal(modal.id);
+                });
+            });
+
+            // Close modals when clicking outside
+            document.querySelectorAll('.modal').forEach(modal => {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        closeModal(this.id);
+                    }
+                });
+            });
+
+            // Initialize star ratings
+            initStarRating();
+
+            // Initialize share buttons in the quick share section
+            document.querySelectorAll('.share-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const platform = this.dataset.platform;
+                    switch(platform) {
+                        case 'facebook': shareToFacebook(); break;
+                        case 'twitter': shareToTwitter(); break;
+                        case 'whatsapp': shareToWhatsApp(); break;
+                        case 'copy': copyToClipboard(); break;
+                    }
+                });
+            });
+        });
+
+        // Loading indicator functionality
+        function showLoadingIndicator() {
+            const gameWrapper = document.querySelector('.game-wrapper');
+            const existingIndicator = gameWrapper.querySelector('.loading-indicator');
+            
+            if (existingIndicator) {
+                existingIndicator.remove();
+            }
+            
+            const loadingIndicator = document.createElement('div');
+            loadingIndicator.className = 'loading-indicator absolute inset-0 flex items-center justify-center bg-white bg-opacity-90 rounded-lg z-10';
+            loadingIndicator.innerHTML = `
+                <div class="text-center">
+                    <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-apple-blue mx-auto mb-4"></div>
+                    <p class="text-gray-600 font-medium">Loading game...</p>
+                </div>
+            `;
+            
+            gameWrapper.style.position = 'relative';
+            gameWrapper.appendChild(loadingIndicator);
+            
+            return loadingIndicator;
+        }
+
+        // Enhanced iframe loading with feedback
+        const iframe = document.querySelector('iframe');
+        
+        if (iframe) {
+            const initialLoader = showLoadingIndicator();
+            
+            iframe.addEventListener('load', function() {
+                setTimeout(() => {
+                    const loader = document.querySelector('.loading-indicator');
+                    if (loader) {
+                        loader.style.opacity = '0';
+                        setTimeout(() => loader.remove(), 300);
+                    }
+                }, 1000);
+            });
+
+            iframe.addEventListener('error', function() {
+                const loader = document.querySelector('.loading-indicator');
+                if (loader) {
+                    loader.innerHTML = `
+                        <div class="text-center">
+                            <div class="text-red-500 text-4xl mb-4">⚠️</div>
+                            <p class="text-gray-600 font-medium">Game loading failed. Please try another game or refresh the page.</p>
+                            <button class="mt-4 px-4 py-2 bg-apple-blue text-white rounded-lg" onclick="location.reload()">
+                                Refresh Page
+                            </button>
+                        </div>
+                    `;
+                }
+            });
+        }
+
+        // Smooth scroll functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '-50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-fade-in-up').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+            observer.observe(el);
+        });
+
+        // Keyboard navigation enhancement
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                // Close any open modals
+                document.querySelectorAll('.modal.show').forEach(modal => {
+                    closeModal(modal.id);
+                });
+                
+                // If no modals, scroll to top
+                if (!document.querySelector('.modal.show')) {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            }
+            
+            // Number keys 1-6 for quick game switching
+            if (e.key >= '1' && e.key <= '6') {
+                e.preventDefault();
+                const gameIndex = parseInt(e.key) - 1;
+                const gameTabs = document.querySelectorAll('.game-tab');
+                if (gameTabs[gameIndex]) {
+                    gameTabs[gameIndex].click();
+                }
+            }
+        });
+
+        // Analytics and performance tracking
+        function trackGameInteraction(action) {
+            console.log('Game interaction:', action);
+            
+            // Example Google Analytics tracking (uncomment if you have GA)
+            // if (typeof gtag !== 'undefined') {
+            //     gtag('event', 'social_interaction', {
+            //         'event_category': 'engagement',
+            //         'event_label': action
+            //     });
+            // }
+        }
+
+        // Track when users interact with the game
+        if (iframe) {
+            iframe.addEventListener('load', () => {
+                trackGameInteraction('game_loaded');
+                userStats.startSession();
+            });
+        }
+
+        // Save stats when leaving page
+        window.addEventListener('beforeunload', () => {
+            userStats.endSession();
+        });
+
+        // Mobile viewport adjustment
+        function adjustViewportForMobile() {
+            if (window.innerWidth <= 768) {
+                const viewport = document.querySelector('meta[name=viewport]');
+                viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
+            }
+        }
+
+        window.addEventListener('resize', adjustViewportForMobile);
+        adjustViewportForMobile();
+    </script>
 </body>
 </html>
