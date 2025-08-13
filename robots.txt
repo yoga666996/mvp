@@ -1,23 +1,16 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
+# Sitemaps
 Sitemap: https://wordsearch.sbs/sitemap.xml
 
-# High-priority pages for crawling
-Allow: /index.html
-Allow: /sitemap.xml
-Allow: /robots.txt
-
-# Block sensitive directories (if any)
-Disallow: /private/
-Disallow: /admin/
-Disallow: /temp/
-
-# Crawl delay (optional, for being polite to search engines)
+# Optimize crawling
 Crawl-delay: 1
 
-# Additional information
-# Site: WordSearch.sbs - Free Online Word Games
-# Contact: support@wordsearch.sbs
-# Last updated: 2025-07-28
+# Block unnecessary paths
+Disallow: /puzzles/
+Disallow: /generatePuzzles.js
+Disallow: /generateGamePages.js
+Disallow: /generatePages.js
+Disallow: /wordSearchGenerator.js
+Disallow: *.json$
