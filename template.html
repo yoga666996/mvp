@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{PAGE_TITLE}}</title>
+    <meta name="description" content="{{META_DESCRIPTION}}">
+    <meta name="keywords" content="{{LONG_TAIL_KEYWORDS}}">
+    <meta property="og:title" content="{{OG_TITLE}}">
+    <meta property="og:description" content="{{OG_DESCRIPTION}}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{OG_URL}}">
+    <meta property="og:image" content="{{OG_IMAGE}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{OG_TITLE}}">
+    <meta name="twitter:description" content="{{OG_DESCRIPTION}}">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="canonical" href="https://wordsearch.sbs/{{SLUG}}.html">
+    <script type="application/ld+json">{{GAME_JSONLD}}</script>
+    <script type="application/ld+json">{{BREADCRUMB_JSONLD}}</script>
+    <script type="application/ld+json">{{FAQ_JSONLD}}</script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1QBDMTPFQ2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-1QBDMTPFQ2');
+	</script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>{{H1_TITLE}}</h1>
+            <p>{{PAGE_INTRO}}</p>
+        </div>
+    </header>
+
+    <main class="container">
+        {{BREADCRUMB_HTML}}
+        <section>
+            <img src="/images/{{IMAGE_FILE}}" alt="{{PAGE_TITLE}}" loading="lazy">
+            <div class="download-links">
+                <a href="/downloads/{{PDF_FILE}}" download>📄 Download PDF</a>
+                <a href="/play/{{SLUG}}.html">🎮 Play Online</a>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h2>About This {{H1_TITLE}}</h2>
+            <p>{{ABOUT_PARAGRAPH}}</p>
+        </section>
+
+        <section class="puzzle-details">
+            <h2>Puzzle Details</h2>
+            <ul>
+                <li>Theme: <strong>{{THEME}}</strong></li>
+                <li>Difficulty: <strong>{{DIFFICULTY}}</strong></li>
+                <li>Grid Size: <strong>{{GRID_SIZE}}</strong></li>
+            </ul>
+        </section>
+
+        <section class="word-list">
+            <h2>Word List</h2>
+            <ul>
+                {{WORDS_LIST}}
+            </ul>
+        </section>
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            {{FAQ_HTML}}
+        </section>
+
+        <section class="related-links">
+            <h2>Related Word Search Puzzles</h2>
+            <ul>
+                {{RELATED_LINKS}}
+            </ul>
+        </section>
+
+        <section>
+            <h2>How to Use This Word Search</h2>
+            <p>Simply download the PDF version for printing, or click "Play Online" to solve the puzzle directly in your browser. Our {{H1_TITLE}} features carefully selected words that are perfect for educational purposes and entertainment.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; {{YEAR}} WordSearch.sbs - All rights reserved. | <a href="/" style="color: white;">Home</a> | <a href="/privacy" style="color: white;">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+</html>

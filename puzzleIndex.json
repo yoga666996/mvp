@@ -1,0 +1,109 @@
+{
+  "puzzles": [
+    {
+      "slug": "animals-easy",
+      "theme": "animals",
+      "difficulty": "easy",
+      "gridSize": 12,
+      "title": "Animals Word Search - Easy",
+      "image": "animals-easy.svg",
+      "jsonFile": "animals-easy.json"
+    },
+    {
+      "slug": "animals-medium",
+      "theme": "animals",
+      "difficulty": "medium",
+      "gridSize": 15,
+      "title": "Animals Word Search - Medium",
+      "image": "animals-medium.svg",
+      "jsonFile": "animals-medium.json"
+    },
+    {
+      "slug": "animals-hard",
+      "theme": "animals",
+      "difficulty": "hard",
+      "gridSize": 18,
+      "title": "Animals Word Search - Hard",
+      "image": "animals-hard.svg",
+      "jsonFile": "animals-hard.json"
+    },
+    {
+      "slug": "food-easy",
+      "theme": "food",
+      "difficulty": "easy",
+      "gridSize": 12,
+      "title": "Food Word Search - Easy",
+      "image": "food-easy.svg",
+      "jsonFile": "food-easy.json"
+    },
+    {
+      "slug": "food-medium",
+      "theme": "food",
+      "difficulty": "medium",
+      "gridSize": 15,
+      "title": "Food Word Search - Medium",
+      "image": "food-medium.svg",
+      "jsonFile": "food-medium.json"
+    },
+    {
+      "slug": "food-hard",
+      "theme": "food",
+      "difficulty": "hard",
+      "gridSize": 18,
+      "title": "Food Word Search - Hard",
+      "image": "food-hard.svg",
+      "jsonFile": "food-hard.json"
+    },
+    {
+      "slug": "nature-medium",
+      "theme": "nature",
+      "difficulty": "medium",
+      "gridSize": 15,
+      "title": "Nature Word Search - Medium",
+      "image": "nature-medium.svg",
+      "jsonFile": "nature-medium.json"
+    },
+    {
+      "slug": "school-medium",
+      "theme": "school",
+      "difficulty": "medium",
+      "gridSize": 15,
+      "title": "School Word Search - Medium",
+      "image": "school-medium.svg",
+      "jsonFile": "school-medium.json"
+    },
+    {
+      "slug": "sports-medium",
+      "theme": "sports",
+      "difficulty": "medium",
+      "gridSize": 15,
+      "title": "Sports Word Search - Medium",
+      "image": "sports-medium.svg",
+      "jsonFile": "sports-medium.json"
+    },
+    {
+      "slug": "colors-easy",
+      "theme": "colors",
+      "difficulty": "easy",
+      "gridSize": 12,
+      "title": "Colors Word Search - Easy",
+      "image": "colors-easy.svg",
+      "jsonFile": "colors-easy.json"
+    }
+  ],
+  "themes": [
+    "animals",
+    "food",
+    "nature",
+    "school",
+    "sports",
+    "colors"
+  ],
+  "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "totalCount": 10,
+  "lastUpdated": "2025-08-12T12:44:27.638Z"
+}
