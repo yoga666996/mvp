@@ -1,135 +1,135 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://wordsearch.sbs/</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>weekly</changefreq>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/animals-easy.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/animals-easy.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/animals-medium.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/animals-medium.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/animals-hard.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/animals-hard.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/food-easy.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/food-easy.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/food-medium.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/food-medium.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/food-hard.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/food-hard.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/nature-medium.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/nature-medium.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/school-medium.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/school-medium.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/sports-medium.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/sports-medium.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/colors-easy.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://wordsearch.sbs/play/colors-easy.html</loc>
-<lastmod>2025-08-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+    <url>
+        <loc>https://wordsearch.sbs/</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/animals-easy.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/animals-easy.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/animals-medium.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/animals-medium.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/animals-hard.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/animals-hard.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/food-easy.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/food-easy.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/food-medium.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/food-medium.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/food-hard.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/food-hard.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/nature-medium.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/nature-medium.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/school-medium.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/school-medium.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/sports-medium.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/sports-medium.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/colors-easy.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wordsearch.sbs/play/colors-easy.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
